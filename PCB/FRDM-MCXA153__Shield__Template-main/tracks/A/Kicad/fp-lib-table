@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Wavenumber")(type "KiCad")(uri "C:/kuncu/Clients/Eli_Hughes/Libraries/Wavenumber.pretty")(options "")(descr ""))
+)
