@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Hat_Template")(type "KiCad")(uri "D:/Github-repositories/FRDM_MCXx_SensHat/PCB/Lib/MCX-A153_Shield_Template.kicad_sym")(options "")(descr ""))
+)
