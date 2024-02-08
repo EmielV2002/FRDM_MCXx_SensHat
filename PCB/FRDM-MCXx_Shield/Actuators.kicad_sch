@@ -4011,7 +4011,7 @@
   )
 
   (symbol (lib_id "SamacSys_Parts:STPIC6C595MTR") (at 207.01 25.4 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
+    (in_bom yes) (on_board no) (dnp yes) (fields_autoplaced)
     (uuid 0a48bb25-0f2f-45be-89b2-7b37d0bbb0a6)
     (property "Reference" "U1" (at 223.52 17.78 0)
       (effects (font (size 1.27 1.27)))

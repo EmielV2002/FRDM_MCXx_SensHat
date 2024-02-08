@@ -2337,13 +2337,13 @@
     (uuid ff71a67f-e8cd-4adc-adce-2c6b86679eec)
   )
 
-  (hierarchical_label "SDA" (shape bidirectional) (at 118.11 186.69 270) (fields_autoplaced)
+  (hierarchical_label "SDA" (shape bidirectional) (at 106.68 186.69 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 0cc66f24-d0e9-443b-a730-39986d59918b)
+    (uuid 665f2b68-5231-4adc-9be5-c9ca0974c156)
   )
-  (hierarchical_label "SCL" (shape input) (at 106.68 186.69 270) (fields_autoplaced)
+  (hierarchical_label "SCL" (shape input) (at 118.11 186.69 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 3dbd26b9-232b-4404-9484-dd7ad4b75994)
+    (uuid fde09fa9-9363-436d-b5e0-8a705b193122)
   )
 
   (symbol (lib_name "MCX-A153_Shield_Template_1") (lib_id "User:MCX-A153_Shield_Template") (at 213.36 45.72 0) (unit 2)

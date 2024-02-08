@@ -77,24 +77,24 @@
         "name": "FRDM-MCXx_Shield.kicad_pcb",
         "open": false,
         "window": {
-          "display": 1,
+          "display": 0,
           "maximized": true,
-          "pos_x": -12,
-          "pos_y": -12,
-          "size_x": 3864,
-          "size_y": 2100
+          "pos_x": -9,
+          "pos_y": -9,
+          "size_x": 1938,
+          "size_y": 1038
         }
       },
       {
         "name": "FRDM-MCXx_Shield.kicad_sch",
         "open": false,
         "window": {
-          "display": 1,
-          "maximized": true,
-          "pos_x": -12,
-          "pos_y": -12,
-          "size_x": 3864,
-          "size_y": 2100
+          "display": 0,
+          "maximized": false,
+          "pos_x": 952,
+          "pos_y": 0,
+          "size_x": 976,
+          "size_y": 1028
         }
       }
     ]
