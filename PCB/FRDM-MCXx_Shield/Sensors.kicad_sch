@@ -3668,7 +3668,7 @@
   (symbol (lib_id "power:GND") (at 62.23 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 16e30abd-4e5c-4817-992a-177622786b9e)
-    (property "Reference" "#PWR031" (at 62.23 69.85 0)
+    (property "Reference" "#PWR034" (at 62.23 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 62.23 68.58 0)
@@ -3684,7 +3684,7 @@
     (instances
       (project "FRDM-MCXx_Shield"
         (path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -3718,7 +3718,7 @@
   (symbol (lib_id "Device:C") (at 111.76 148.59 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 299deccb-75d2-46d6-8188-ef92ad13bac3)
-    (property "Reference" "C12" (at 111.76 140.97 90)
+    (property "Reference" "C9" (at 111.76 140.97 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100nF" (at 111.76 143.51 90)
@@ -3735,14 +3735,14 @@
     (instances
       (project "FRDM-MCXx_Shield"
         (path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
-          (reference "C12") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Jumper:SolderJumper_3_Open") (at 49.53 53.34 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "Jumper:SolderJumper_3_Open") (at 49.53 53.34 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 2cd5da39-2b24-4d5e-80fa-0df890956288)
     (property "Reference" "JP1" (at 49.53 46.99 0)
       (effects (font (size 1.27 1.27)))
@@ -3771,7 +3771,7 @@
   (symbol (lib_id "power:GND") (at 200.66 52.07 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3255690f-f9bc-4a73-af8b-10beabf58b00)
-    (property "Reference" "#PWR037" (at 207.01 52.07 0)
+    (property "Reference" "#PWR033" (at 207.01 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 204.47 52.07 90)
@@ -3787,7 +3787,7 @@
     (instances
       (project "FRDM-MCXx_Shield"
         (path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -3796,7 +3796,7 @@
   (symbol (lib_id "power:GND") (at 106.68 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4380beac-194b-4d78-8fee-64d1cd77e596)
-    (property "Reference" "#PWR044" (at 106.68 156.21 0)
+    (property "Reference" "#PWR040" (at 106.68 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 106.68 154.94 0)
@@ -3812,7 +3812,7 @@
     (instances
       (project "FRDM-MCXx_Shield"
         (path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -3821,7 +3821,7 @@
   (symbol (lib_id "SamacSys_Parts:FXLS8974CF") (at 135.89 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 486998a9-c103-412f-a3e7-9858fc63d512)
-    (property "Reference" "U4" (at 167.005 44.45 0)
+    (property "Reference" "U2" (at 167.005 44.45 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "FXLS8974CF" (at 167.005 46.99 0)
@@ -3867,7 +3867,7 @@
     (instances
       (project "FRDM-MCXx_Shield"
         (path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
-          (reference "U4") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -3876,7 +3876,7 @@
   (symbol (lib_id "power:+3.3V") (at 36.83 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 53126eef-f310-4884-a1fe-efc1503e3bdd)
-    (property "Reference" "#PWR056" (at 36.83 53.34 0)
+    (property "Reference" "#PWR030" (at 36.83 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 36.83 44.45 0)
@@ -3892,7 +3892,7 @@
     (instances
       (project "FRDM-MCXx_Shield"
         (path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -3901,13 +3901,13 @@
   (symbol (lib_id "Connector:Conn_01x05_Socket") (at 58.42 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5bb8e3b7-36a8-4799-a4e2-94672aeecc7a)
-    (property "Reference" "J1" (at 59.69 129.54 0)
+    (property "Reference" "J4" (at 59.69 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x05_Socket" (at 59.69 132.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" (at 58.42 130.81 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" (at 58.42 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 58.42 130.81 0)
@@ -3921,7 +3921,7 @@
     (instances
       (project "FRDM-MCXx_Shield"
         (path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
-          (reference "J1") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -3930,7 +3930,7 @@
   (symbol (lib_id "power:+5V") (at 38.1 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 67c20c73-c332-4418-9954-32aceeba3e42)
-    (property "Reference" "#PWR047" (at 38.1 165.1 0)
+    (property "Reference" "#PWR041" (at 38.1 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 38.1 156.21 0)
@@ -3946,7 +3946,7 @@
     (instances
       (project "FRDM-MCXx_Shield"
         (path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -3955,7 +3955,7 @@
   (symbol (lib_id "power:GND") (at 49.53 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6f82975a-0113-4b25-a5f2-e06ffa4d5ef3)
-    (property "Reference" "#PWR030" (at 49.53 82.55 0)
+    (property "Reference" "#PWR036" (at 49.53 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 49.53 81.28 0)
@@ -3971,7 +3971,7 @@
     (instances
       (project "FRDM-MCXx_Shield"
         (path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -3980,7 +3980,7 @@
   (symbol (lib_id "Sensor_Humidity:SHT31A-DIS") (at 118.11 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 73f88430-9369-4abf-b8c0-159ec38864d8)
-    (property "Reference" "U5" (at 120.3041 151.13 0)
+    (property "Reference" "U3" (at 120.3041 151.13 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SHT31A-DIS" (at 120.3041 153.67 0)
@@ -4004,7 +4004,7 @@
     (instances
       (project "FRDM-MCXx_Shield"
         (path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
-          (reference "U5") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -4042,7 +4042,7 @@
           (reference "RN3") (unit 2)
         )
         (path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
-          (reference "RN3") (unit 2)
+          (reference "RN1") (unit 2)
         )
       )
     )
@@ -4070,7 +4070,7 @@
           (reference "#PWR039") (unit 1)
         )
         (path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -4079,7 +4079,7 @@
   (symbol (lib_id "Device:C") (at 124.46 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 85cd1217-137c-4345-8f45-d4cc15398a4d)
-    (property "Reference" "C10" (at 128.27 55.88 0)
+    (property "Reference" "C7" (at 128.27 55.88 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 128.27 58.42 0)
@@ -4096,7 +4096,7 @@
     (instances
       (project "FRDM-MCXx_Shield"
         (path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
-          (reference "C10") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -4105,7 +4105,7 @@
   (symbol (lib_id "power:GND") (at 113.03 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 885a9ed7-7051-45a8-86c1-66b9e017715e)
-    (property "Reference" "#PWR036" (at 113.03 71.12 0)
+    (property "Reference" "#PWR035" (at 113.03 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 113.03 69.85 0)
@@ -4121,7 +4121,7 @@
     (instances
       (project "FRDM-MCXx_Shield"
         (path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -4130,7 +4130,7 @@
   (symbol (lib_id "power:GND") (at 38.1 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 98c07741-df30-420b-bf04-12894665397f)
-    (property "Reference" "#PWR02" (at 38.1 135.89 0)
+    (property "Reference" "#PWR038" (at 38.1 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.1 134.62 0)
@@ -4146,7 +4146,7 @@
     (instances
       (project "FRDM-MCXx_Shield"
         (path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -4155,7 +4155,7 @@
   (symbol (lib_id "power:+3.3V") (at 38.1 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a1b7fa92-624f-4220-aaf1-a5518f04f933)
-    (property "Reference" "#PWR01" (at 38.1 128.27 0)
+    (property "Reference" "#PWR037" (at 38.1 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 38.1 119.38 0)
@@ -4171,7 +4171,7 @@
     (instances
       (project "FRDM-MCXx_Shield"
         (path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -4180,7 +4180,7 @@
   (symbol (lib_id "power:GND") (at 38.1 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a8d0b115-a736-4dfb-8b42-e4c9d65fb3dc)
-    (property "Reference" "#PWR048" (at 38.1 172.72 0)
+    (property "Reference" "#PWR042" (at 38.1 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.1 171.45 0)
@@ -4196,7 +4196,7 @@
     (instances
       (project "FRDM-MCXx_Shield"
         (path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -4234,7 +4234,7 @@
           (reference "RN3") (unit 1)
         )
         (path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
-          (reference "RN3") (unit 1)
+          (reference "RN1") (unit 1)
         )
       )
     )
@@ -4249,7 +4249,7 @@
     (property "Value" "Conn_01x06_Socket" (at 59.69 167.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" (at 58.42 165.1 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" (at 58.42 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 58.42 165.1 0)
@@ -4273,7 +4273,7 @@
   (symbol (lib_id "power:+3.3V") (at 113.03 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d1ff453b-1742-4246-8204-b9a9d7652225)
-    (property "Reference" "#PWR038" (at 113.03 54.61 0)
+    (property "Reference" "#PWR032" (at 113.03 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 113.03 45.72 0)
@@ -4289,7 +4289,7 @@
     (instances
       (project "FRDM-MCXx_Shield"
         (path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -4323,7 +4323,7 @@
   (symbol (lib_id "power:+3.3VADC") (at 62.23 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e4f2da90-3e47-435a-88a7-f7b26ed7e92e)
-    (property "Reference" "#PWR032" (at 66.04 50.8 0)
+    (property "Reference" "#PWR031" (at 66.04 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VADC" (at 62.23 44.45 0)
@@ -4339,7 +4339,7 @@
     (instances
       (project "FRDM-MCXx_Shield"
         (path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -4374,7 +4374,7 @@
   (symbol (lib_id "power:GND") (at 118.11 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eea37b80-5260-4f35-9280-7f9a8f8456cf)
-    (property "Reference" "#PWR042" (at 118.11 176.53 0)
+    (property "Reference" "#PWR044" (at 118.11 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 118.11 175.26 0)
@@ -4390,7 +4390,7 @@
     (instances
       (project "FRDM-MCXx_Shield"
         (path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -4399,7 +4399,7 @@
   (symbol (lib_id "Device:C") (at 113.03 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f313ff25-a45a-4b1d-b850-c83e4700fd8f)
-    (property "Reference" "C11" (at 116.84 55.88 0)
+    (property "Reference" "C6" (at 116.84 55.88 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 116.84 58.42 0)
@@ -4416,7 +4416,7 @@
     (instances
       (project "FRDM-MCXx_Shield"
         (path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
-          (reference "C11") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
