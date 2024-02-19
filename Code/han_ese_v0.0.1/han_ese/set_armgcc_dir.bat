@@ -1,0 +1,1 @@
+SET ARMGCC_DIR=c:/_ha/arm-gnu-toolchain-13.2.Rel1-mingw-w64-i686-arm-none-eabi
