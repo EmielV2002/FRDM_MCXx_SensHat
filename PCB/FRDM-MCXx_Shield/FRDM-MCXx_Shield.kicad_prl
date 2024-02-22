@@ -74,15 +74,15 @@
   "project": {
     "files": [
       {
-        "name": "FRDM-MCXx_Shield.kicad_pcb",
+        "name": "FRDM-MCXx_Shield.kicad_sch",
         "open": false,
         "window": {
-          "display": 1,
+          "display": 0,
           "maximized": true,
-          "pos_x": -12,
-          "pos_y": -12,
-          "size_x": 3864,
-          "size_y": 2100
+          "pos_x": -9,
+          "pos_y": -9,
+          "size_x": 1938,
+          "size_y": 1038
         }
       }
     ]
