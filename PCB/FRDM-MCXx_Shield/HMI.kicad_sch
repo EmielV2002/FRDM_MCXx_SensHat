@@ -7,7 +7,7 @@
   (title_block
     (title "HMI")
     (date "2024-02-24")
-    (rev "V1.2")
+    (rev "V1.3")
     (company "HAN")
     (comment 1 "Authors: Thomas Ijseldijk, Hugo Arends & Emiel Visser")
   )
