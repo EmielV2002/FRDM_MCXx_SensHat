@@ -815,12 +815,12 @@
 				)
 			)
 		)
-		(symbol "SamacSys_Parts:M95010-RMN6TP"
+		(symbol "SamacSys:M95010-RMN6TP"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 24.13 10.16 0)
+				(at 24.13 9.398 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -829,7 +829,7 @@
 				)
 			)
 			(property "Value" "M95010-RMN6TP"
-				(at 24.13 7.62 0)
+				(at 24.13 7.112 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2173,16 +2173,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 125.73) (xy 195.58 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a62d4387-6de6-43fa-bfe3-d8384160f41d")
-	)
-	(wire
-		(pts
 			(xy 224.79 115.57) (xy 227.33 115.57)
 		)
 		(stroke
@@ -2190,6 +2180,16 @@
 			(type default)
 		)
 		(uuid "aa68e3fe-72ca-4942-84d6-09fe478f7abe")
+	)
+	(wire
+		(pts
+			(xy 195.58 125.73) (xy 227.33 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aad75437-229e-412f-9651-3d1fbfdde74f")
 	)
 	(wire
 		(pts
@@ -2605,7 +2605,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0720a1af-f208-4590-920b-f5e53f855165")
-		(property "Reference" "C17"
+		(property "Reference" "C12"
 			(at 134.62 105.41 90)
 			(effects
 				(font
@@ -2621,7 +2621,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 138.43 112.0648 0)
 			(effects
 				(font
@@ -2666,7 +2666,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "C17")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -2682,7 +2682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ee40784-e649-41db-b0d4-2db8da1fbd4e")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR044"
 			(at 128.27 113.03 0)
 			(effects
 				(font
@@ -2732,7 +2732,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "#PWR057")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -2748,7 +2748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30187850-12f3-4062-9cf3-15d5ade16298")
-		(property "Reference" "D21"
+		(property "Reference" "D16"
 			(at 115.57 61.1221 0)
 			(effects
 				(font
@@ -2808,7 +2808,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "D21")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -2824,7 +2824,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30fcb75a-5c04-4d45-93f9-6cd60d89e3ce")
-		(property "Reference" "C15"
+		(property "Reference" "C10"
 			(at 44.45 109.22 0)
 			(effects
 				(font
@@ -2842,7 +2842,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 39.6748 106.68 0)
 			(effects
 				(font
@@ -2887,7 +2887,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "C15")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -2903,7 +2903,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "374179bb-fb49-4faf-9056-657c033bcd46")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR041"
 			(at 105.41 80.01 0)
 			(effects
 				(font
@@ -2953,7 +2953,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "#PWR054")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -2969,7 +2969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "399a02c6-8bff-4be4-bc2c-95c7f43b1db2")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR035"
 			(at 105.41 55.88 0)
 			(effects
 				(font
@@ -3019,7 +3019,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "#PWR048")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -3036,7 +3036,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c4dac67-c3a1-48b3-8a61-a16c05c240ab")
-		(property "Reference" "R13"
+		(property "Reference" "R7"
 			(at 198.12 115.57 0)
 			(effects
 				(font
@@ -3054,7 +3054,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 197.358 116.84 90)
 			(effects
 				(font
@@ -3099,7 +3099,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "R13")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -3115,7 +3115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "427261f9-5b70-41a1-bcae-4ed7a9fbe834")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR047"
 			(at 204.47 115.57 0)
 			(effects
 				(font
@@ -3165,7 +3165,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "#PWR060")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -3181,7 +3181,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bcf993d-6ff0-4683-8d3e-9bd4031dd522")
-		(property "Reference" "C14"
+		(property "Reference" "C9"
 			(at 246.38 99.06 90)
 			(effects
 				(font
@@ -3197,7 +3197,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 250.19 105.7148 0)
 			(effects
 				(font
@@ -3242,7 +3242,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "C14")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -3258,7 +3258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4beba81f-78fd-4c8a-a16b-715e4883fb81")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR034"
 			(at 77.47 55.88 0)
 			(effects
 				(font
@@ -3308,7 +3308,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "#PWR047")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -3324,7 +3324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54b62b96-dc60-4b43-89d8-06a3915eeadd")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR043"
 			(at 241.3 107.95 0)
 			(effects
 				(font
@@ -3374,7 +3374,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "#PWR056")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -3390,7 +3390,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bbbf356-a07b-4f87-856f-c10bcc7de8f2")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR036"
 			(at 63.5 62.23 0)
 			(effects
 				(font
@@ -3440,7 +3440,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "#PWR049")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -3456,7 +3456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e63af00-e508-4070-b7cc-9b94e4fb18cd")
-		(property "Reference" "D19"
+		(property "Reference" "D14"
 			(at 59.69 61.1221 0)
 			(effects
 				(font
@@ -3516,7 +3516,164 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "D19")
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys:M95010-RMN6TP")
+		(at 227.33 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65a2ec78-83c6-424a-945a-aa4180168f0d")
+		(property "Reference" "U2"
+			(at 229.87 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "M95010-RMN6TP"
+			(at 229.87 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOIC127P600X175-8N"
+			(at 251.46 213.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.arrow.com/en/products/m95010-rmn6tp/stmicroelectronics"
+			(at 251.46 313.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "EEPROM Serial SPI Bus EEPROM"
+			(at 227.33 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 251.46 513.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 251.46 613.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "M95010-RMN6TP"
+			(at 251.46 713.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "511-M95010-RMN6TP"
+			(at 251.46 813.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/M95010-RMN6TP?qs=6hSH1YZbOIgK0xa%252BHaDUCw%3D%3D"
+			(at 251.46 913.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "M95010-RMN6TP"
+			(at 251.46 1013.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/m95010-rmn6tp/stmicroelectronics?region=nac"
+			(at 251.46 1113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "9d0b7bf2-f084-4326-a327-85cff721a843")
+		)
+		(pin "3"
+			(uuid "608c1d2a-8a74-48af-9c08-05b413ae260b")
+		)
+		(pin "2"
+			(uuid "0b8822ae-8ff7-4616-957e-3cd250c1bbee")
+		)
+		(pin "6"
+			(uuid "d94c0a47-ec8a-4d16-a054-1a83c5863748")
+		)
+		(pin "5"
+			(uuid "5e36c449-ecc0-49a3-a663-9f0f3cbff5c9")
+		)
+		(pin "4"
+			(uuid "99a39eed-0a03-4899-a63c-96f78ffc9949")
+		)
+		(pin "1"
+			(uuid "62024a38-47bd-4026-adc6-e77ebb04f851")
+		)
+		(pin "7"
+			(uuid "14e05227-9f87-4f1d-af0e-fcd3939fab40")
+		)
+		(instances
+			(project "FRDM-MCXx_Shield"
+				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -3532,7 +3689,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a621e1c-4278-4d0a-90a3-9fc3533461d2")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR039"
 			(at 49.53 80.01 0)
 			(effects
 				(font
@@ -3582,7 +3739,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "#PWR052")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -3598,7 +3755,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "740687ac-30e0-471f-92e1-a9344d032438")
-		(property "Reference" "C13"
+		(property "Reference" "C8"
 			(at 111.76 46.99 90)
 			(effects
 				(font
@@ -3614,7 +3771,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 115.57 53.6448 0)
 			(effects
 				(font
@@ -3659,7 +3816,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "C13")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -3675,7 +3832,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84a6df6c-d4de-4b8a-9f2c-fd36ab41d9ce")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR048"
 			(at 140.97 120.65 0)
 			(effects
 				(font
@@ -3725,7 +3882,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "#PWR061")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -3741,7 +3898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d0a1363-7333-49b1-90d0-34b8917601d4")
-		(property "Reference" "C12"
+		(property "Reference" "C7"
 			(at 83.82 46.99 90)
 			(effects
 				(font
@@ -3757,7 +3914,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 87.63 53.6448 0)
 			(effects
 				(font
@@ -3802,7 +3959,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "C12")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -3818,7 +3975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d79780e-c219-4016-b3b9-e585b7b32b49")
-		(property "Reference" "C16"
+		(property "Reference" "C11"
 			(at 60.96 109.22 0)
 			(effects
 				(font
@@ -3836,7 +3993,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 56.1848 106.68 0)
 			(effects
 				(font
@@ -3881,7 +4038,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "C16")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -3897,7 +4054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96a51eee-95e6-4b96-9089-3efc4e5bcb9f")
-		(property "Reference" "U6"
+		(property "Reference" "U3"
 			(at 119.38 124.4599 0)
 			(effects
 				(font
@@ -3969,7 +4126,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "U6")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -3985,7 +4142,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "985e102f-76de-4776-ab60-eba653a56b8c")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR033"
 			(at 49.53 55.88 0)
 			(effects
 				(font
@@ -4035,7 +4192,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "#PWR046")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -4052,7 +4209,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9afb11f3-b794-4a1a-8328-4d6334157d24")
-		(property "Reference" "R14"
+		(property "Reference" "R8"
 			(at 207.01 115.57 0)
 			(effects
 				(font
@@ -4070,7 +4227,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 206.248 116.84 90)
 			(effects
 				(font
@@ -4115,7 +4272,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "R14")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -4131,7 +4288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aaf0dcad-e77c-4439-b051-21331f574a0e")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR052"
 			(at 39.37 144.78 0)
 			(effects
 				(font
@@ -4182,7 +4339,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "#PWR065")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -4198,7 +4355,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abb0d707-5b51-4a88-b004-16b8f14b3688")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR045"
 			(at 254 115.57 0)
 			(effects
 				(font
@@ -4248,7 +4405,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "#PWR058")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -4264,7 +4421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abe74cb0-6115-426c-a755-62cdc6535c40")
-		(property "Reference" "D20"
+		(property "Reference" "D15"
 			(at 87.63 61.1221 0)
 			(effects
 				(font
@@ -4324,7 +4481,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "D20")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -4340,7 +4497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acf2d259-65fd-44a9-8e91-b76c35852055")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR049"
 			(at 40.64 123.19 0)
 			(effects
 				(font
@@ -4391,7 +4548,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "#PWR062")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -4407,7 +4564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad8dba20-bd82-4b96-b556-b065f4d2e571")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR050"
 			(at 128.27 140.97 0)
 			(effects
 				(font
@@ -4457,7 +4614,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "#PWR063")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -4473,7 +4630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b165cc79-46e9-4a7c-8baf-5cfce75045f0")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR042"
 			(at 40.64 107.95 0)
 			(effects
 				(font
@@ -4524,7 +4681,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "#PWR055")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -4622,7 +4779,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5020b3c-108d-47df-a890-4905d48f0e8d")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR037"
 			(at 91.44 62.23 0)
 			(effects
 				(font
@@ -4672,7 +4829,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "#PWR050")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -4688,7 +4845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf24395c-08cf-461c-85cb-6c640ae6f76f")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR046"
 			(at 195.58 115.57 0)
 			(effects
 				(font
@@ -4738,7 +4895,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "#PWR059")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -4754,7 +4911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2737d31-423f-4639-ba78-32aba61dcb4c")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR051"
 			(at 241.3 140.97 0)
 			(effects
 				(font
@@ -4804,7 +4961,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "#PWR064")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -4820,7 +4977,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3fa9d65-c52c-4dd0-9f71-9dde99c9e6ca")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR038"
 			(at 119.38 62.23 0)
 			(effects
 				(font
@@ -4870,7 +5027,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "#PWR051")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -4886,7 +5043,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d490b215-f107-48af-a4c0-1072510051bb")
-		(property "Reference" "C11"
+		(property "Reference" "C6"
 			(at 55.88 46.99 90)
 			(effects
 				(font
@@ -4902,7 +5059,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 59.69 53.6448 0)
 			(effects
 				(font
@@ -4947,7 +5104,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "C11")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -4963,7 +5120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5f44524-8242-4608-a173-9f3664dc2a2f")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR040"
 			(at 77.47 80.01 0)
 			(effects
 				(font
@@ -5013,164 +5170,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:M95010-RMN6TP")
-		(at 227.33 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ff264df3-9b23-492e-a386-3d8ec84e1d59")
-		(property "Reference" "U5"
-			(at 228.6 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "M95010-RMN6TP"
-			(at 228.6 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOIC127P600X175-8N"
-			(at 251.46 213.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.arrow.com/en/products/m95010-rmn6tp/stmicroelectronics"
-			(at 251.46 313.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 227.33 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.75"
-			(at 251.46 513.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "STMicroelectronics"
-			(at 251.46 613.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "M95010-RMN6TP"
-			(at 251.46 713.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "511-M95010-RMN6TP"
-			(at 251.46 813.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/M95010-RMN6TP?qs=6hSH1YZbOIgK0xa%252BHaDUCw%3D%3D"
-			(at 251.46 913.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "M95010-RMN6TP"
-			(at 251.46 1013.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/m95010-rmn6tp/stmicroelectronics?region=nac"
-			(at 251.46 1113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "d2b2ddbc-a20a-425f-80ed-73bd2204909a")
-		)
-		(pin "5"
-			(uuid "5a91f49e-6325-46d6-94fe-42e237077365")
-		)
-		(pin "7"
-			(uuid "7b3b0121-034d-4db8-819f-a5120272c238")
-		)
-		(pin "3"
-			(uuid "656022bb-70b7-411d-998e-2a1c2ec2e5de")
-		)
-		(pin "4"
-			(uuid "80446397-fb1d-4d2a-9afe-977a0374f7d6")
-		)
-		(pin "1"
-			(uuid "f8bae387-678b-46d2-b710-101ff6676d48")
-		)
-		(pin "6"
-			(uuid "81aa18dd-d8c3-4dae-a8d7-f068a55defb2")
-		)
-		(pin "2"
-			(uuid "21b12c70-1b79-4e8c-b2b0-6d757994c82f")
-		)
-		(instances
-			(project "FRDM-MCXx_Shield"
-				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "U5")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)

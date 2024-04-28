@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 44,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -81,6 +81,18 @@
     "files": [
       {
         "name": "FRDM-MCXx_Shield.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 1,
+          "maximized": false,
+          "pos_x": 1910,
+          "pos_y": 0,
+          "size_x": 1939,
+          "size_y": 2086
+        }
+      },
+      {
+        "name": "FRDM-MCXx_Shield.kicad_pcb",
         "open": false,
         "window": {
           "display": 1,

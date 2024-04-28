@@ -1,4 +1,4 @@
-23314447774894074
+23323026021057130
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -87255,6 +87255,13 @@ Integrated Circuit
 16
 16
 SamacSys
+5000
+5000
+Test Point
+0
+1
+1
+SamacSys
 01550900DR
 01550900DR-2
 Fuse
@@ -87380,6 +87387,27 @@ Undefined or Miscellaneous
 0
 7
 7
+SamacSys
+EC12D1564404
+EC12D1564404
+Switch
+0
+7
+7
+SamacSys
+EC12E2420301
+EC12E2420301-1
+Integrated Circuit
+0
+5
+5
+SamacSys
+ESD8101FCT5G
+ESD8101FCT5G-2
+TVS Diode (Uni-directional)
+0
+2
+2
 SamacSys
 FFC3B1120T
 FFC3B11-20-T-2
@@ -87884,6 +87912,13 @@ Connector
 0
 3
 3
+SamacSys
+VARC1608X55N
+CG0603 Series
+Varistor
+0
+2
+2
 SamacSys
 XC9131F05CDRG
 USP-10B_2021
