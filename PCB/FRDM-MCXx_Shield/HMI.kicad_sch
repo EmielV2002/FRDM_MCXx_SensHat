@@ -4067,7 +4067,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EC12D1564404"
+		(property "Footprint" "SamacSys:EC12D1564404"
 			(at 59.69 134.29 0)
 			(effects
 				(font

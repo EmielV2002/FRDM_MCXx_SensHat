@@ -1880,6 +1880,146 @@
 				)
 			)
 		)
+		(symbol "Graphic:SYM_ESD_Small"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#SYM"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "SYM_ESD_Small"
+				(at 0 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "ESD warning/\"Do not touch\" symbol, small"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Enable" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "symbol ESD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SYM_ESD_Small_0_0"
+				(polyline
+					(pts
+						(xy -1.27 0.381) (xy 2.159 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.667 -1.905) (xy 2.794 -1.905) (xy 0 2.54) (xy -2.667 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.7432 -1.905) (xy 2.7178 -1.8796) (xy 2.6162 -1.6764) (xy 2.5654 -1.6002) (xy 2.4892 -1.4986)
+						(xy 2.4384 -1.3716) (xy 1.7526 -0.2286) (xy 1.7018 -0.127) (xy 1.6256 -0.0508) (xy 1.6002 0.0508)
+						(xy 1.5494 0.1016) (xy 1.4986 0.2032) (xy 1.4732 0.2286) (xy 1.4732 0.2032) (xy 1.4478 0.2032)
+						(xy 1.3208 0.0762) (xy 1.2954 0.0254) (xy 1.2954 -0.0254) (xy 1.27 -0.0762) (xy 1.2446 -0.1524)
+						(xy 1.143 -0.254) (xy 1.0922 -0.3302) (xy 1.0414 -0.3556) (xy 0.9144 -0.4826) (xy 0.762 -0.5842)
+						(xy 0.6604 -0.6604) (xy 0.508 -0.762) (xy 0.4572 -0.8128) (xy 0.3556 -0.8636) (xy 0.3048 -0.9144)
+						(xy 0.2286 -0.9652) (xy 0.0762 -1.1938) (xy 0.0254 -1.2954) (xy -0.0254 -1.4224) (xy -0.0508 -1.4986)
+						(xy -0.1016 -1.5748) (xy -0.127 -1.651) (xy -0.1778 -1.6764) (xy -0.2032 -1.7272) (xy -0.254 -1.7526)
+						(xy -0.4064 -1.7526) (xy -0.4064 -1.7272) (xy -0.4572 -1.7018) (xy -0.4826 -1.6256) (xy -0.508 -1.524)
+						(xy -0.508 -1.0922) (xy -0.4572 -0.889) (xy -0.4064 -0.8128) (xy -0.254 -0.6604) (xy -0.2032 -0.5842)
+						(xy -0.127 -0.5334) (xy -0.1016 -0.4826) (xy -0.0762 -0.4064) (xy -0.0508 -0.3556) (xy -0.0254 -0.3302)
+						(xy -0.0254 -0.2794) (xy 0 -0.2286) (xy -0.0762 -0.1524) (xy -0.127 -0.127) (xy -0.1524 -0.0762)
+						(xy -0.2032 -0.0508) (xy -0.2286 -0.0254) (xy -0.254 -0.0254) (xy -0.3048 -0.0762) (xy -0.3556 -0.1016)
+						(xy -0.4318 -0.127) (xy -0.4826 -0.1524) (xy -0.5588 -0.2286) (xy -0.6096 -0.254) (xy -0.8382 -0.4826)
+						(xy -0.8128 -0.5588) (xy -0.7874 -0.5842) (xy -0.7874 -0.8636) (xy -0.8128 -0.889) (xy -0.8128 -0.9652)
+						(xy -0.762 -1.016) (xy -0.762 -1.0414) (xy -0.6604 -1.2954) (xy -0.6604 -1.5748) (xy -0.6858 -1.6002)
+						(xy -0.6858 -1.6256) (xy -0.7366 -1.7018) (xy -0.8382 -1.7526) (xy -0.9144 -1.7526) (xy -0.9398 -1.7272)
+						(xy -0.9652 -1.6764) (xy -1.016 -1.6002) (xy -1.0414 -1.524) (xy -1.143 -1.27) (xy -1.2192 -1.0414)
+						(xy -1.27 -0.9652) (xy -1.2954 -0.889) (xy -1.3208 -0.8382) (xy -1.3208 -0.8128) (xy -1.3716 -0.7112)
+						(xy -1.397 -0.5842) (xy -1.397 -0.4826) (xy -1.3716 -0.381) (xy -1.3208 -0.254) (xy -1.2954 -0.2032)
+						(xy -1.1938 -0.0508) (xy -1.0414 0.1524) (xy -0.9906 0.2032) (xy -0.9652 0.254) (xy -0.9144 0.3302)
+						(xy -0.889 0.381) (xy -0.8636 0.381) (xy -0.8128 0.508) (xy -0.6096 0.7112) (xy -0.5334 0.7366)
+						(xy -0.508 0.762) (xy -0.4318 0.762) (xy -0.3556 0.7874) (xy -0.2286 0.8128) (xy -0.1016 0.8128)
+						(xy 0.0508 0.8382) (xy 0.2032 0.8382) (xy 0.3048 0.8636) (xy 0.4826 0.8636) (xy 0.5334 0.889)
+						(xy 0.5842 0.889) (xy 0.6858 0.9398) (xy 0.7112 0.9652) (xy 0.762 0.9906) (xy 0.8128 1.0414) (xy 0.8636 1.0668)
+						(xy 0.889 1.1176) (xy 0.9144 1.143) (xy 0.9144 1.1938) (xy 0.889 1.2192) (xy 0.8636 1.27) (xy 0.8128 1.3462)
+						(xy 0.7112 1.5494) (xy 0.635 1.651) (xy 0.5842 1.7526) (xy 0.508 1.8796) (xy 0.4572 1.9558) (xy 0.381 2.0828)
+						(xy 0.3048 2.1844) (xy 0.254 2.286) (xy 0.2032 2.3622) (xy 0.1778 2.4384) (xy 0.1016 2.5146) (xy 0.1016 2.54)
+						(xy 0.0762 2.5654) (xy 0.0762 2.5908) (xy 0.0254 2.5908) (xy 0.0254 2.5654) (xy -0.0254 2.5146)
+						(xy -0.1016 2.3622) (xy -0.254 2.1336) (xy -0.3048 2.032) (xy -0.4572 1.778) (xy -0.5588 1.6256)
+						(xy -0.762 1.27) (xy -0.889 1.0668) (xy -1.016 0.8382) (xy -1.1684 0.6096) (xy -1.3208 0.3302)
+						(xy -1.397 0.2032) (xy -1.524 -0.0254) (xy -1.778 -0.4318) (xy -1.8796 -0.635) (xy -2.0066 -0.8128)
+						(xy -2.1082 -0.9906) (xy -2.2098 -1.143) (xy -2.286 -1.2954) (xy -2.4384 -1.5494) (xy -2.4892 -1.651)
+						(xy -2.5654 -1.7526) (xy -2.5908 -1.8288) (xy -2.6162 -1.8796) (xy -2.6416 -1.905) (xy -2.6416 -1.9304)
+						(xy 2.7432 -1.9304) (xy 2.7432 -1.905)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -22491,6 +22631,25 @@
 		)
 		(uuid "ac49a854-2a5f-4989-b895-ca8e176e2a5d")
 	)
+	(text_box "Symbols"
+		(exclude_from_sim no)
+		(at 179.07 119.38 0)
+		(size 48.26 31.75)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c7a6f411-e65b-4958-96aa-1d5ee2fdc442")
+	)
 	(text_box "Mounting holes screen bracket, M2.2"
 		(exclude_from_sim no)
 		(at 135.89 161.29 0)
@@ -23395,6 +23554,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Graphic:SYM_ESD_Small")
+		(at 194.31 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80528bb1-432b-41b3-8248-e5bbfdcca53b")
+		(property "Reference" "REF1"
+			(at 194.31 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WEEE-Logo_4.2x6mm_SilkScreen"
+			(at 194.31 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Symbol:WEEE-Logo_4.2x6mm_SilkScreen"
+			(at 194.31 129.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 129.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "FRDM-MCXx_Shield"
+				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17"
+					(reference "REF1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 144.78 185.42 0)
 		(unit 1)
@@ -23855,6 +24078,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 194.31 142.24 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e34cf3ab-ab21-46f3-aa23-f7706eeebec7")
+		(property "Reference" "REF2"
+			(at 196.85 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 196.85 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Symbol:ESD-Logo_6.6x6mm_SilkScreen"
+			(at 194.31 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 194.31 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "FRDM-MCXx_Shield"
+				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17"
+					(reference "REF2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x06_Odd_Even")
 		(at 242.57 44.45 0)
 		(mirror x)
@@ -24136,6 +24424,71 @@
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 213.36 142.24 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef868aa2-769e-4918-bec6-efc3e128ee00")
+		(property "Reference" "REF3"
+			(at 215.9 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 215.9 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "clipboard:5e83e988-b69c-43c0-b382-9b895c3e7185"
+			(at 213.36 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "FRDM-MCXx_Shield"
+				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17"
+					(reference "REF3")
 					(unit 1)
 				)
 			)

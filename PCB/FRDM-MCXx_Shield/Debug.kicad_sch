@@ -9099,7 +9099,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "5000"
+		(property "Footprint" "SamacSys:5000"
 			(at -25.07 181.61 0)
 			(effects
 				(font
@@ -9237,7 +9237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "5000"
+		(property "Footprint" "SamacSys:5000"
 			(at -25.07 184.15 0)
 			(effects
 				(font
@@ -9597,7 +9597,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "5000"
+		(property "Footprint" "SamacSys:5000"
 			(at -25.07 179.07 0)
 			(effects
 				(font
@@ -9818,7 +9818,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "5000"
+		(property "Footprint" "SamacSys:5000"
 			(at -25.07 146.05 0)
 			(effects
 				(font
@@ -10255,7 +10255,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "5000"
+		(property "Footprint" "SamacSys:5000"
 			(at -25.07 143.51 0)
 			(effects
 				(font
@@ -10681,7 +10681,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "5000"
+		(property "Footprint" "SamacSys:5000"
 			(at -25.07 148.59 0)
 			(effects
 				(font
