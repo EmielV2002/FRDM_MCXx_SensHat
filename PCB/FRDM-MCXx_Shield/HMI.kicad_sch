@@ -4206,7 +4206,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "129ba7d5-d76d-4206-8ec7-d0fe241cd0aa")
-		(property "Reference" "D6"
+		(property "Reference" "D3"
 			(at 271.78 53.34 0)
 			(effects
 				(font
@@ -4258,7 +4258,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c260d15f-62c2-4b8e-8d51-131218f9d74d"
-					(reference "D6")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4647,7 +4647,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2566a465-06e1-4fe5-8181-130c19047c6f")
-		(property "Reference" "D5"
+		(property "Reference" "D4"
 			(at 271.78 57.15 0)
 			(effects
 				(font
@@ -4699,7 +4699,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c260d15f-62c2-4b8e-8d51-131218f9d74d"
-					(reference "D5")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -4847,7 +4847,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "39e93ed0-d8c7-483b-ab94-6e5693bd71e1")
-		(property "Reference" "D7"
+		(property "Reference" "D2"
 			(at 271.78 49.53 0)
 			(effects
 				(font
@@ -4899,7 +4899,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c260d15f-62c2-4b8e-8d51-131218f9d74d"
-					(reference "D7")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -4981,7 +4981,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a7aa7ad-24f0-46e9-84e7-9e5943ad7757")
-		(property "Reference" "D1"
+		(property "Reference" "D8"
 			(at 271.78 73.66 0)
 			(effects
 				(font
@@ -5033,7 +5033,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c260d15f-62c2-4b8e-8d51-131218f9d74d"
-					(reference "D1")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -5568,7 +5568,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a41eb19-1623-428f-a79e-44d2a660d5b4")
-		(property "Reference" "D8"
+		(property "Reference" "D1"
 			(at 271.78 45.72 0)
 			(effects
 				(font
@@ -5620,7 +5620,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c260d15f-62c2-4b8e-8d51-131218f9d74d"
-					(reference "D8")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -6591,7 +6591,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aef46bfd-3aac-425b-8744-bf6628adf57d")
-		(property "Reference" "D3"
+		(property "Reference" "D6"
 			(at 271.78 66.04 0)
 			(effects
 				(font
@@ -6643,7 +6643,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c260d15f-62c2-4b8e-8d51-131218f9d74d"
-					(reference "D3")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -7196,7 +7196,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d04f49a0-3ce0-465c-81a8-eb243db10fcb")
-		(property "Reference" "D2"
+		(property "Reference" "D7"
 			(at 271.78 69.85 0)
 			(effects
 				(font
@@ -7248,7 +7248,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c260d15f-62c2-4b8e-8d51-131218f9d74d"
-					(reference "D2")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -7420,7 +7420,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e686d3f1-3e8f-4614-8df4-b85fde3096aa")
-		(property "Reference" "D4"
+		(property "Reference" "D5"
 			(at 271.78 62.23 0)
 			(effects
 				(font
@@ -7472,7 +7472,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c260d15f-62c2-4b8e-8d51-131218f9d74d"
-					(reference "D4")
+					(reference "D5")
 					(unit 1)
 				)
 			)

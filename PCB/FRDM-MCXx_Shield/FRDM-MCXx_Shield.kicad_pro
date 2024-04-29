@@ -58,7 +58,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "duplicate_footprints|173761760|106794512|24f77248-b581-4d66-851f-1795694fd68e|0c7d4955-3db2-4081-b229-c90e21af6bc1",
+        "extra_footprint|165540000|106750000|0c7d4955-3db2-4081-b229-c90e21af6bc1|00000000-0000-0000-0000-000000000000",
+        "extra_footprint|173761760|106794512|24f77248-b581-4d66-851f-1795694fd68e|00000000-0000-0000-0000-000000000000",
+        "silk_overlap|177765400|73313492|c43e3173-1f45-4f63-adb5-7f1d413065b8|1db04569-6b36-46e7-b7a3-2faaa0baca5e"
+      ],
       "meta": {
         "version": 2
       },
@@ -75,8 +80,8 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "ignore",
+        "footprint_symbol_mismatch": "ignore",
+        "footprint_type_mismatch": "warning",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
@@ -84,8 +89,8 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_issues": "ignore",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
@@ -99,7 +104,7 @@
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
+        "solder_mask_bridge": "ignore",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_thickness": "warning",
@@ -180,7 +185,8 @@
       ],
       "track_widths": [
         0.0,
-        0.4
+        0.4,
+        0.7
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {

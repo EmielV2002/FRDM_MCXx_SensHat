@@ -1,4 +1,4 @@
-23323026021057130
+23333312022532247
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -67297,6 +67297,34 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
+PCM_kikit
+Board
+Mark board for extraction
+
+0
+0
+0
+PCM_kikit
+Fiducial
+Circular Fiducial
+fiducial
+0
+1
+0
+PCM_kikit
+NPTH
+
+
+0
+0
+0
+PCM_kikit
+Tab
+A symbol representing annotation for tab placement
+
+0
+0
+0
 Package_BGA
 Alliance_TFBGA-54_8x8mm_Layout9x9_P0.8mm
 Alliance TFBGA 54 pins, 8x8mm, 54 Ball, 9x9 Layout, 0.8mm Pitch, https://www.alliancememory.com/wp-content/uploads/pdf/dram/Alliance_Memory_64M-AS4C4M16SA-CI_v5.0_October_2018.pdf#page=54
@@ -94772,6 +94800,20 @@ XCVR_NRF9160-SICA
 0
 161
 161
+User
+easteregg
+
+
+0
+0
+0
+User
+easteregg_silk
+
+
+0
+0
+0
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
