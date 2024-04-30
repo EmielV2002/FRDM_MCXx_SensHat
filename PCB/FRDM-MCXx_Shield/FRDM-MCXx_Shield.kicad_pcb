@@ -2093,7 +2093,7 @@
 		(uuid "1eb20083-3998-4356-aab7-6c062070b57b")
 		(at 179.67 114.1 90)
 		(property "Reference" "G***"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d14420aa-e2cf-46be-9562-3ddfdec7825b")
@@ -2105,7 +2105,7 @@
 			)
 		)
 		(property "Value" "LOGO"
-			(at 0.75 0 270)
+			(at 0.75 0 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "7f6327f9-4293-4b49-9f4f-432a2652d5b1")
@@ -3136,7 +3136,7 @@
 		(uuid "2583ca36-df6a-469e-b296-df6786c736ed")
 		(at 179.959371 96.249855 90)
 		(property "Reference" "G***"
-			(at 0 -2.3 270)
+			(at 0 -2.3 -90)
 			(layer "Cmts.User")
 			(hide yes)
 			(uuid "853de2d6-c4dd-469a-908c-a658ede15778")
@@ -6789,7 +6789,7 @@
 		(descr "Electrostatic discharge Logo")
 		(tags "Logo ESD")
 		(property "Reference" "REF2"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "9869a32f-dca1-459c-ae4d-b110a34e63c6")
@@ -6801,7 +6801,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0.75 0 270)
+			(at 0.75 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2201a4d7-69bb-4508-8060-e579112049f6")
@@ -15727,7 +15727,7 @@
 		(uuid "39547f20-0293-40d9-ac3d-fb4be9652489")
 		(at 147.3 91.26)
 		(property "Reference" "G***"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "54e746c1-8f5e-4624-8f6a-b1f000986b30")
@@ -15740,7 +15740,7 @@
 			)
 		)
 		(property "Value" "LOGO"
-			(at 0.75 0 360)
+			(at 0.75 0 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "845d68e6-7687-4c0d-996a-8d0410154164")
@@ -23023,8 +23023,8 @@
 		(uuid "acc4ad55-a0c6-48a9-9a15-3ae0077420f8")
 	)
 	(gr_rect
-		(start 173.7 99.29)
-		(end 181.7 91.29)
+		(start 173.7 91.29)
+		(end 181.7 99.29)
 		(stroke
 			(width 0.2)
 			(type default)
@@ -23034,8 +23034,8 @@
 		(uuid "b4f4a729-fb56-42a7-8d27-f58db739af80")
 	)
 	(gr_rect
-		(start 173.7 91.29)
-		(end 181.7 83.29)
+		(start 173.7 83.29)
+		(end 181.7 91.29)
 		(stroke
 			(width 0.2)
 			(type default)
