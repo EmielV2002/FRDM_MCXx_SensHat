@@ -22633,8 +22633,8 @@
 	)
 	(text_box "Symbols"
 		(exclude_from_sim no)
-		(at 179.07 119.38 0)
-		(size 48.26 31.75)
+		(at 240.03 135.89 0)
+		(size 33.02 25.4)
 		(stroke
 			(width 0)
 			(type dash)
@@ -23555,7 +23555,7 @@
 	)
 	(symbol
 		(lib_id "Graphic:SYM_ESD_Small")
-		(at 194.31 129.54 0)
+		(at 245.11 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -23564,7 +23564,7 @@
 		(fields_autoplaced yes)
 		(uuid "80528bb1-432b-41b3-8248-e5bbfdcca53b")
 		(property "Reference" "REF1"
-			(at 194.31 125.984 0)
+			(at 245.11 139.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23573,7 +23573,7 @@
 			)
 		)
 		(property "Value" "WEEE-Logo_4.2x6mm_SilkScreen"
-			(at 194.31 132.715 0)
+			(at 245.11 146.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23582,7 +23582,7 @@
 			)
 		)
 		(property "Footprint" "Symbol:WEEE-Logo_4.2x6mm_SilkScreen"
-			(at 194.31 129.286 0)
+			(at 245.11 143.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23591,7 +23591,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.31 129.286 0)
+			(at 245.11 143.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23600,7 +23600,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 194.31 129.54 0)
+			(at 245.11 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24079,7 +24079,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 194.31 142.24 0)
+		(at 245.11 156.21 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -24088,7 +24088,7 @@
 		(fields_autoplaced yes)
 		(uuid "e34cf3ab-ab21-46f3-aa23-f7706eeebec7")
 		(property "Reference" "REF2"
-			(at 196.85 140.9699 0)
+			(at 247.65 154.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24097,7 +24097,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 196.85 143.5099 0)
+			(at 247.65 157.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24107,7 +24107,7 @@
 			)
 		)
 		(property "Footprint" "Symbol:ESD-Logo_6.6x6mm_SilkScreen"
-			(at 194.31 142.24 0)
+			(at 245.11 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24116,7 +24116,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.31 142.24 0)
+			(at 245.11 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24125,7 +24125,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 194.31 142.24 0)
+			(at 245.11 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24431,7 +24431,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 213.36 142.24 0)
+		(at 264.16 156.21 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -24440,7 +24440,7 @@
 		(fields_autoplaced yes)
 		(uuid "ef868aa2-769e-4918-bec6-efc3e128ee00")
 		(property "Reference" "REF3"
-			(at 215.9 140.9699 0)
+			(at 266.7 154.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24449,7 +24449,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 215.9 143.5099 0)
+			(at 266.7 157.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24459,7 +24459,7 @@
 			)
 		)
 		(property "Footprint" "clipboard:5e83e988-b69c-43c0-b382-9b895c3e7185"
-			(at 213.36 142.24 0)
+			(at 264.16 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24468,7 +24468,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 142.24 0)
+			(at 264.16 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24477,7 +24477,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 213.36 142.24 0)
+			(at 264.16 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
