@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "HMI")
-		(date "2024-04-27")
+		(date "2024-05-05")
 		(rev "V2.0")
 		(company "HAN")
 		(comment 1 "Authors: Thomas Ijseldijk, Hugo Arends & Emiel Visser")

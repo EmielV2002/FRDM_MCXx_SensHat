@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Sensors & actuators")
-		(date "2024-04-26")
+		(date "2024-05-05")
 		(rev "V2.0")
 		(company "HAN")
 		(comment 1 "Authors: Thomas Ijseldijk, Hugo Arends & Emiel Visser")
@@ -1782,7 +1782,7 @@
 		(uuid "018dc463-3f8a-49a7-bd59-8b0a76c62156")
 	)
 	(junction
-		(at 128.27 113.03)
+		(at 128.27 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "112e9918-3062-4d73-9fc7-0df90349cb3a")
@@ -1993,7 +1993,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 133.35) (xy 128.27 134.62)
+			(xy 128.27 130.81) (xy 128.27 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2103,7 +2103,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 113.03) (xy 128.27 113.03)
+			(xy 130.81 110.49) (xy 128.27 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2113,7 +2113,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 113.03) (xy 138.43 113.03)
+			(xy 140.97 110.49) (xy 138.43 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2163,7 +2163,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 109.22) (xy 128.27 113.03)
+			(xy 128.27 106.68) (xy 128.27 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2223,7 +2223,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 114.3) (xy 140.97 113.03)
+			(xy 140.97 111.76) (xy 140.97 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2313,7 +2313,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 125.73) (xy 140.97 125.73)
+			(xy 138.43 123.19) (xy 140.97 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2343,7 +2343,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 113.03) (xy 128.27 118.11)
+			(xy 128.27 110.49) (xy 128.27 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2441,8 +2441,8 @@
 	)
 	(text_box "Analog temperature sensor"
 		(exclude_from_sim no)
-		(at 109.22 99.06 0)
-		(size 44.45 43.18)
+		(at 109.22 93.98 0)
+		(size 45.72 48.26)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2460,8 +2460,8 @@
 	)
 	(text_box "EEPROM"
 		(exclude_from_sim no)
-		(at 191.77 96.52 0)
-		(size 77.47 45.72)
+		(at 191.77 93.98 0)
+		(size 77.47 48.26)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2523,9 +2523,9 @@
 		)
 		(uuid "19b58e69-4c8c-4da7-b2d4-8ea0bbf618db")
 	)
-	(hierarchical_label "ADC_OUT"
+	(hierarchical_label "LM35_V_OUT"
 		(shape output)
-		(at 140.97 125.73 0)
+		(at 140.97 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2597,7 +2597,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 134.62 113.03 90)
+		(at 134.62 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2606,7 +2606,7 @@
 		(fields_autoplaced yes)
 		(uuid "0720a1af-f208-4590-920b-f5e53f855165")
 		(property "Reference" "C12"
-			(at 134.62 105.41 90)
+			(at 134.62 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2614,7 +2614,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 134.62 107.95 90)
+			(at 134.62 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2622,7 +2622,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 138.43 112.0648 0)
+			(at 138.43 109.5248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2631,7 +2631,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 113.03 0)
+			(at 134.62 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2640,7 +2640,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 113.03 0)
+			(at 134.62 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2649,7 +2649,7 @@
 			)
 		)
 		(property "GPN" "GPC0603104"
-			(at 134.62 113.03 90)
+			(at 134.62 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2674,7 +2674,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 128.27 109.22 0)
+		(at 128.27 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2683,7 +2683,7 @@
 		(fields_autoplaced yes)
 		(uuid "2ee40784-e649-41db-b0d4-2db8da1fbd4e")
 		(property "Reference" "#PWR044"
-			(at 128.27 113.03 0)
+			(at 128.27 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2692,7 +2692,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 128.27 104.14 0)
+			(at 128.27 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2700,7 +2700,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 109.22 0)
+			(at 128.27 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2709,7 +2709,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 109.22 0)
+			(at 128.27 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2718,7 +2718,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 128.27 109.22 0)
+			(at 128.27 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3824,7 +3824,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 140.97 114.3 0)
+		(at 140.97 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3833,7 +3833,7 @@
 		(fields_autoplaced yes)
 		(uuid "84a6df6c-d4de-4b8a-9f2c-fd36ab41d9ce")
 		(property "Reference" "#PWR048"
-			(at 140.97 120.65 0)
+			(at 140.97 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3842,7 +3842,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 140.97 119.38 0)
+			(at 140.97 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3850,7 +3850,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 114.3 0)
+			(at 140.97 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3859,7 +3859,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 114.3 0)
+			(at 140.97 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3868,7 +3868,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 114.3 0)
+			(at 140.97 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4046,7 +4046,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Temperature:LM35-D")
-		(at 128.27 125.73 0)
+		(at 128.27 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4055,7 +4055,7 @@
 		(fields_autoplaced yes)
 		(uuid "96a51eee-95e6-4b96-9089-3efc4e5bcb9f")
 		(property "Reference" "U3"
-			(at 119.38 124.4599 0)
+			(at 119.38 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4064,7 +4064,7 @@
 			)
 		)
 		(property "Value" "LM35-D"
-			(at 119.38 126.9999 0)
+			(at 119.38 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4073,7 +4073,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 128.27 135.89 0)
+			(at 128.27 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4082,7 +4082,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm35.pdf"
-			(at 128.27 125.73 0)
+			(at 128.27 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4091,7 +4091,7 @@
 			)
 		)
 		(property "Description" "Precision centigrade temperature sensor, SOIC-8"
-			(at 128.27 125.73 0)
+			(at 128.27 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Main")
-		(date "2024-04-28")
+		(date "2024-05-05")
 		(rev "V2.0")
 		(company "HAN")
 		(comment 1 "Authors: Thomas Ijseldijk, Hugo Arends & Emiel Visser")
@@ -2821,7 +2821,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 49.53) (xy 250.19 49.53)
+			(xy 266.7 49.53) (xy 250.19 49.53)
 		)
 		(stroke
 			(width 0)
@@ -22577,7 +22577,7 @@
 	(text_box "I2C pullups"
 		(exclude_from_sim no)
 		(at 95.25 161.29 0)
-		(size 30.48 31.75)
+		(size 30.48 33.02)
 		(stroke
 			(width 0)
 			(type dash)
@@ -22593,10 +22593,10 @@
 		)
 		(uuid "38115d68-a7d3-4510-bb7a-044b3b50f18d")
 	)
-	(text_box "Changes V2.0:\n - Changed pinout.\n - Changed SN74LV164ADR (shftreg) for two 74HC595's. \n \n - Removed extra I2C debug header.\n - Removed FXLS8974CF.\n - Removed buttons.\n - Removed GPS/BT header.\n - Removed RGB-led.\n - Removed Potentiometer.\n\n - Added debug pins.\n - Added test hooks.\n - Added ESD protection diodes.\n"
+	(text_box "Changes V2.0:\n - Changed pinout.\n - Changed SN74LV164ADR (shftreg) for two 74HC595's. \n - Changed ADC_OUT to LM35_V_OUT.\n \n - Removed extra I2C debug header.\n - Removed FXLS8974CF.\n - Removed buttons.\n - Removed GPS/BT header.\n - Removed RGB-led.\n - Removed Potentiometer.\n\n - Added debug pins.\n - Added test hooks.\n - Added ESD protection diodes.\n"
 		(exclude_from_sim no)
 		(at 16.51 161.29 0)
-		(size 59.69 31.75)
+		(size 59.69 33.02)
 		(stroke
 			(width 0)
 			(type default)
@@ -22653,7 +22653,7 @@
 	(text_box "Mounting holes screen bracket, M2.2"
 		(exclude_from_sim no)
 		(at 135.89 161.29 0)
-		(size 30.48 31.75)
+		(size 30.48 33.02)
 		(stroke
 			(width 0)
 			(type dash)
@@ -22746,8 +22746,8 @@
 		)
 		(uuid "3000da79-30fa-49c1-9d43-419c216abc0a")
 	)
-	(label "ADC_OUT"
-		(at 261.62 49.53 180)
+	(label "LM35_V_OUT"
+		(at 266.7 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23054,7 +23054,7 @@
 		)
 		(uuid "b94a2f8f-bb22-43be-a04a-09929ea11fb7")
 	)
-	(label "ADC_OUT"
+	(label "LM35_V_OUT"
 		(at 68.58 71.12 180)
 		(fields_autoplaced yes)
 		(effects
@@ -23619,7 +23619,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 144.78 185.42 0)
+		(at 144.78 187.96 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -23628,15 +23628,6 @@
 		(fields_autoplaced yes)
 		(uuid "847de528-3240-4e38-b059-e174dd7cce8e")
 		(property "Reference" "H2"
-			(at 147.32 184.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
 			(at 147.32 186.6899 0)
 			(effects
 				(font
@@ -23645,8 +23636,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "MountingHole"
+			(at 147.32 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 144.78 185.42 0)
+			(at 144.78 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23655,7 +23655,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 185.42 0)
+			(at 144.78 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23664,7 +23664,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 144.78 185.42 0)
+			(at 144.78 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23683,7 +23683,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 144.78 170.18 0)
+		(at 144.78 172.72 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -23692,15 +23692,6 @@
 		(fields_autoplaced yes)
 		(uuid "95d1e781-e3ad-4c93-bc16-28d3ff811122")
 		(property "Reference" "H1"
-			(at 147.32 168.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
 			(at 147.32 171.4499 0)
 			(effects
 				(font
@@ -23709,8 +23700,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "MountingHole"
+			(at 147.32 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 144.78 170.18 0)
+			(at 144.78 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23719,7 +23719,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 170.18 0)
+			(at 144.78 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23728,7 +23728,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 144.78 170.18 0)
+			(at 144.78 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
