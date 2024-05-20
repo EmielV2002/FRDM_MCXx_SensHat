@@ -80,7 +80,7 @@
   "project": {
     "files": [
       {
-        "name": "FRDM-MCXx_Shield.kicad_sch",
+        "name": "FRDM-MCXx_Shield.kicad_pcb",
         "open": false,
         "window": {
           "display": 1,
@@ -92,7 +92,7 @@
         }
       },
       {
-        "name": "FRDM-MCXx_Shield.kicad_pcb",
+        "name": "FRDM-MCXx_Shield.kicad_sch",
         "open": false,
         "window": {
           "display": 1,
