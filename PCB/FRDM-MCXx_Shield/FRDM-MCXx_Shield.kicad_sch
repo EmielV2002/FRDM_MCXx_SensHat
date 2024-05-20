@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Main")
-		(date "2024-05-05")
+		(date "2024-05-20")
 		(rev "V2.0")
 		(company "HAN")
 		(comment 1 "Authors: Thomas Ijseldijk, Hugo Arends & Emiel Visser")
@@ -22691,6 +22691,17 @@
 		)
 		(uuid "12536a31-f060-4a57-a05e-fdbcd50c65bd")
 	)
+	(label "LM35_V_OUT"
+		(at 68.58 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1ca77319-6693-4d9a-9e4b-a8aea9d9b442")
+	)
 	(label "SCL"
 		(at 68.58 22.86 180)
 		(fields_autoplaced yes)
@@ -23086,17 +23097,6 @@
 			(justify right bottom)
 		)
 		(uuid "d324c3b7-0ab1-4263-9c3e-9eaaa4710ec9")
-	)
-	(label "ADC_OUT"
-		(at 68.58 116.84 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dd408cf8-73e5-4557-9a95-c3a1327625a4")
 	)
 	(label "~{SHIFTREG_RST}"
 		(at 68.58 124.46 180)
@@ -23561,15 +23561,13 @@
 		(in_bom no)
 		(on_board no)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "80528bb1-432b-41b3-8248-e5bbfdcca53b")
 		(property "Reference" "REF1"
-			(at 245.11 139.954 0)
+			(at 250.19 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "WEEE-Logo_4.2x6mm_SilkScreen"
@@ -24554,16 +24552,6 @@
 			)
 			(uuid "2fd383ab-3071-4e75-89b9-e4d1db2f3586")
 		)
-		(pin "ADC_OUT" output
-			(at 53.34 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "c42a217c-95db-46fe-bde9-5dcfc5b5fe25")
-		)
 		(pin "SERVO_PWM" input
 			(at 53.34 113.03 0)
 			(effects
@@ -24673,6 +24661,16 @@
 				(justify right)
 			)
 			(uuid "87c3cea4-f148-48e0-ad63-aed85681b178")
+		)
+		(pin "LM35_V_OUT" output
+			(at 53.34 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ebd361e0-9096-4158-ab60-26d5b6c88f79")
 		)
 		(instances
 			(project "FRDM-MCXx_Shield"
@@ -24870,16 +24868,6 @@
 			)
 			(uuid "6949e198-6b67-43d6-bd03-89890726176a")
 		)
-		(pin "ADC_OUT" output
-			(at 53.34 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "f7225338-eff8-4470-bae5-ad28f4fe6669")
-		)
 		(pin "WRITE_PROT" input
 			(at 53.34 76.2 0)
 			(effects
@@ -24929,6 +24917,16 @@
 				(justify right)
 			)
 			(uuid "edd1615e-3cf9-4be9-b7c0-8cd0ad6f37bd")
+		)
+		(pin "LM35_V_OUT" output
+			(at 53.34 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e171a9f0-ad39-4b12-a0df-de36bbe8c32d")
 		)
 		(instances
 			(project "FRDM-MCXx_Shield"

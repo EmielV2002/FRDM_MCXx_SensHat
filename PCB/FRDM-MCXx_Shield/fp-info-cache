@@ -1,4 +1,4 @@
-23338455233536533
+23340173379497152
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -87376,6 +87376,13 @@ Schottky Diode
 SamacSys
 DIOM5226X230N
 2-Pin SMA
+Diode
+0
+2
+2
+SamacSys
+DIOM5436X244N
+VS-3EGH06-M3/5BT
 Diode
 0
 2

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Debug")
-		(date "2024-05-05")
+		(date "2024-05-20")
 		(rev "V2.0")
 		(company "HAN")
 		(comment 1 "Authors: Thomas Ijseldijk, Hugo Arends & Emiel Visser")
@@ -8666,7 +8666,7 @@
 		)
 		(uuid "34849220-4676-48ba-a0cf-7cb63aa33d96")
 	)
-	(hierarchical_label "ADC_OUT"
+	(hierarchical_label "LM35_V_OUT"
 		(shape output)
 		(at 38.1 167.64 180)
 		(fields_autoplaced yes)
