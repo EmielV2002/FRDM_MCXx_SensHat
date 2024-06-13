@@ -7,7 +7,7 @@
 	(title_block
 		(title "Debug")
 		(date "2024-05-20")
-		(rev "V2.0")
+		(rev "V3.0")
 		(company "HAN")
 		(comment 1 "Authors: Thomas Ijseldijk, Hugo Arends & Emiel Visser")
 	)
@@ -8797,7 +8797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "058d7d36-3476-4145-88e7-c8e0cc305994")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR031"
 			(at 54.61 187.96 0)
 			(effects
 				(font
@@ -8848,7 +8848,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
-					(reference "#PWR032")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -8865,7 +8865,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bbff4e9-8738-4383-9039-fbc73306e08c")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR023"
 			(at 67.31 43.18 0)
 			(effects
 				(font
@@ -8916,7 +8916,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
-					(reference "#PWR024")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -8932,7 +8932,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d834ffd-57e6-45e2-8a9c-28915768272f")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR027"
 			(at 67.31 95.25 0)
 			(effects
 				(font
@@ -8983,7 +8983,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
-					(reference "#PWR028")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -9359,7 +9359,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46dbb8c8-1cec-4439-96e2-57fb7ad3301f")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR030"
 			(at 54.61 152.4 0)
 			(effects
 				(font
@@ -9410,7 +9410,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
-					(reference "#PWR031")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -9940,7 +9940,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0eb7c8c-3bcd-4c69-bfe9-7af6c65b414f")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR025"
 			(at 67.31 68.58 0)
 			(effects
 				(font
@@ -9991,7 +9991,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
-					(reference "#PWR026")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -10462,7 +10462,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be1c8441-beb2-49eb-b3e1-b8f58ba74c66")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR029"
 			(at 54.61 118.11 0)
 			(effects
 				(font
@@ -10513,7 +10513,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
-					(reference "#PWR030")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -10530,7 +10530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc5b4343-0afe-4a5d-ba19-74cb7d0b5693")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR026"
 			(at 54.61 78.74 0)
 			(effects
 				(font
@@ -10581,7 +10581,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
-					(reference "#PWR027")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -10597,7 +10597,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7a97f6d-85d6-44ee-a5c6-8aa6bf7462c2")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR028"
 			(at 67.31 107.95 0)
 			(effects
 				(font
@@ -10648,7 +10648,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
-					(reference "#PWR029")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -10803,7 +10803,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc0fb031-2f02-4400-9f67-7cfde5b6d92a")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR024"
 			(at 54.61 53.34 0)
 			(effects
 				(font
@@ -10854,7 +10854,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
-					(reference "#PWR025")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)

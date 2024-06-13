@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Main")
-		(date "2024-05-20")
-		(rev "V2.0")
+		(date "2024-06-13")
+		(rev "V3.0")
 		(company "HAN")
 		(comment 1 "Authors: Thomas Ijseldijk, Hugo Arends & Emiel Visser")
 	)
@@ -2661,7 +2661,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 113.03) (xy 68.58 113.03)
+			(xy 53.34 110.49) (xy 68.58 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2681,7 +2681,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 121.92) (xy 68.58 121.92)
+			(xy 53.34 119.38) (xy 68.58 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2701,7 +2701,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 116.84) (xy 68.58 116.84)
+			(xy 53.34 114.3) (xy 68.58 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2711,7 +2711,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 129.54) (xy 68.58 129.54)
+			(xy 53.34 127) (xy 68.58 127)
 		)
 		(stroke
 			(width 0)
@@ -2741,7 +2741,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 144.78) (xy 68.58 144.78)
+			(xy 53.34 142.24) (xy 68.58 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2751,7 +2751,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 76.2) (xy 68.58 76.2)
+			(xy 53.34 73.66) (xy 68.58 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2771,7 +2771,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 81.28) (xy 68.58 81.28)
+			(xy 53.34 78.74) (xy 68.58 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2811,7 +2811,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 124.46) (xy 68.58 124.46)
+			(xy 53.34 121.92) (xy 68.58 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2841,7 +2841,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 127) (xy 68.58 127)
+			(xy 53.34 124.46) (xy 68.58 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2921,16 +2921,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 46.99) (xy 68.58 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50920d61-3f79-4b6d-9346-49c927ac9866")
-	)
-	(wire
-		(pts
 			(xy 53.34 31.75) (xy 68.58 31.75)
 		)
 		(stroke
@@ -2961,7 +2951,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 67.31) (xy 68.58 67.31)
+			(xy 53.34 64.77) (xy 68.58 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2971,7 +2961,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 104.14) (xy 68.58 104.14)
+			(xy 53.34 101.6) (xy 68.58 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3011,7 +3001,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 137.16) (xy 68.58 137.16)
+			(xy 53.34 134.62) (xy 68.58 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3021,7 +3011,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 134.62) (xy 68.58 134.62)
+			(xy 53.34 132.08) (xy 68.58 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3061,7 +3051,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 147.32) (xy 68.58 147.32)
+			(xy 53.34 144.78) (xy 68.58 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3081,7 +3071,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 78.74) (xy 68.58 78.74)
+			(xy 53.34 76.2) (xy 68.58 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3091,7 +3081,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 86.36) (xy 53.34 86.36)
+			(xy 68.58 83.82) (xy 53.34 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3101,7 +3091,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 101.6) (xy 68.58 101.6)
+			(xy 53.34 99.06) (xy 68.58 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3131,7 +3121,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 71.12) (xy 68.58 71.12)
+			(xy 53.34 68.58) (xy 68.58 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3151,7 +3141,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 63.5) (xy 68.58 63.5)
+			(xy 53.34 60.96) (xy 68.58 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3161,7 +3151,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 83.82) (xy 68.58 83.82)
+			(xy 53.34 81.28) (xy 68.58 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3171,7 +3161,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 49.53) (xy 68.58 49.53)
+			(xy 53.34 46.99) (xy 68.58 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3221,7 +3211,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 109.22) (xy 68.58 109.22)
+			(xy 53.34 106.68) (xy 68.58 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3251,7 +3241,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 142.24) (xy 68.58 142.24)
+			(xy 53.34 139.7) (xy 68.58 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3271,7 +3261,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 132.08) (xy 68.58 132.08)
+			(xy 53.34 129.54) (xy 68.58 129.54)
 		)
 		(stroke
 			(width 0)
@@ -22593,7 +22583,7 @@
 		)
 		(uuid "38115d68-a7d3-4510-bb7a-044b3b50f18d")
 	)
-	(text_box "Changes V2.0:\n - Changed pinout.\n - Changed SN74LV164ADR (shftreg) for two 74HC595's. \n - Changed ADC_OUT to LM35_V_OUT.\n \n - Removed extra I2C debug header.\n - Removed FXLS8974CF.\n - Removed buttons.\n - Removed GPS/BT header.\n - Removed RGB-led.\n - Removed Potentiometer.\n\n - Added debug pins.\n - Added test hooks.\n - Added ESD protection diodes.\n"
+	(text_box "Changes V3.0:\n - Removed capacitor at encoder input.\n - Removed MISO connection with shiftregister.\n \n - Changed 3.3V to 5V at the LM35 power input.  \n - Changed P..... to P....\n"
 		(exclude_from_sim no)
 		(at 16.51 161.29 0)
 		(size 59.69 33.02)
@@ -22670,7 +22660,7 @@
 		(uuid "ef5da3f3-a69d-4f8f-881a-06aeb180452c")
 	)
 	(label "LED_NEOPIXEL"
-		(at 68.58 109.22 180)
+		(at 68.58 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22681,7 +22671,7 @@
 		(uuid "10e47c81-be93-4543-b901-a33667759c2c")
 	)
 	(label "SPI_MOSI"
-		(at 68.58 132.08 180)
+		(at 68.58 129.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22692,7 +22682,7 @@
 		(uuid "12536a31-f060-4a57-a05e-fdbcd50c65bd")
 	)
 	(label "LM35_V_OUT"
-		(at 68.58 116.84 180)
+		(at 68.58 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22736,7 +22726,7 @@
 		(uuid "29e91060-b8c0-4c85-a052-43302ee7a01c")
 	)
 	(label "WRITE_PROT"
-		(at 68.58 121.92 180)
+		(at 68.58 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22802,7 +22792,7 @@
 		(uuid "3bd83cf9-1455-491b-96d2-30df2ca3b7f5")
 	)
 	(label "ENC_B"
-		(at 68.58 147.32 180)
+		(at 68.58 144.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22813,7 +22803,7 @@
 		(uuid "3feb3b06-ed74-4cde-9135-db6a4c1f6d5a")
 	)
 	(label "SDA"
-		(at 68.58 101.6 180)
+		(at 68.58 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22846,7 +22836,7 @@
 		(uuid "46d598c7-9121-4ae2-a5fb-391415b51452")
 	)
 	(label "SPI_MOSI"
-		(at 68.58 49.53 180)
+		(at 68.58 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22890,7 +22880,7 @@
 		(uuid "531f974c-5e0b-4654-abe5-490ac3f88e50")
 	)
 	(label "SERVO_PWM"
-		(at 68.58 113.03 180)
+		(at 68.58 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22901,7 +22891,7 @@
 		(uuid "5655aa0d-7414-48fd-b3bf-51c4ff420b4a")
 	)
 	(label "~{SHIFTREG_CS}"
-		(at 68.58 129.54 180)
+		(at 68.58 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22912,7 +22902,7 @@
 		(uuid "581e1e67-b282-4486-8da0-2ff1d1a5a293")
 	)
 	(label "~{EEPROM_CS}"
-		(at 68.58 127 180)
+		(at 68.58 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22934,7 +22924,7 @@
 		(uuid "61912d74-ba72-466f-b27b-55410bb48ffc")
 	)
 	(label "~{EEPROM_CS}"
-		(at 68.58 78.74 180)
+		(at 68.58 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22945,7 +22935,7 @@
 		(uuid "6894a120-1b0d-455d-9fe1-f7eefc66aa5f")
 	)
 	(label "SERVO_PWM"
-		(at 68.58 67.31 180)
+		(at 68.58 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22978,7 +22968,7 @@
 		(uuid "6b3a7601-f471-4d3c-af06-336d4ebee82d")
 	)
 	(label "WRITE_PROT"
-		(at 68.58 76.2 180)
+		(at 68.58 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23000,7 +22990,7 @@
 		(uuid "7edc3d78-e7b8-4383-af94-7683edb19e63")
 	)
 	(label "SCL"
-		(at 68.58 104.14 180)
+		(at 68.58 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23022,7 +23012,7 @@
 		(uuid "7fdc5e7d-90df-4f37-96da-a42345f50880")
 	)
 	(label "SPI_CLK"
-		(at 68.58 81.28 180)
+		(at 68.58 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23033,7 +23023,7 @@
 		(uuid "81e9e3c3-46bb-4ba4-8819-01b7a8f81a29")
 	)
 	(label "LED_NEOPIXEL"
-		(at 68.58 63.5 180)
+		(at 68.58 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23066,7 +23056,7 @@
 		(uuid "b94a2f8f-bb22-43be-a04a-09929ea11fb7")
 	)
 	(label "LM35_V_OUT"
-		(at 68.58 71.12 180)
+		(at 68.58 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23077,7 +23067,7 @@
 		(uuid "c159c3a9-f88c-41bf-b07a-859685613204")
 	)
 	(label "SPI_MISO"
-		(at 68.58 83.82 180)
+		(at 68.58 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23088,7 +23078,7 @@
 		(uuid "c66669ab-e385-41be-b8db-53f6597644f1")
 	)
 	(label "SPI_MISO"
-		(at 68.58 134.62 180)
+		(at 68.58 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23099,7 +23089,7 @@
 		(uuid "d324c3b7-0ab1-4263-9c3e-9eaaa4710ec9")
 	)
 	(label "~{SHIFTREG_RST}"
-		(at 68.58 124.46 180)
+		(at 68.58 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23132,7 +23122,7 @@
 		(uuid "f03e9866-931c-4284-8f47-b53bdbfaa289")
 	)
 	(label "SPI_MOSI"
-		(at 68.58 86.36 180)
+		(at 68.58 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23143,7 +23133,7 @@
 		(uuid "f0db51f7-f60f-4bed-9ad2-9c1dfcb4d308")
 	)
 	(label "ENC_SW"
-		(at 68.58 142.24 180)
+		(at 68.58 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23154,7 +23144,7 @@
 		(uuid "f1ea0231-34e5-4a5d-8db5-4ac72bc6ac6d")
 	)
 	(label "SPI_CLK"
-		(at 68.58 137.16 180)
+		(at 68.58 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23165,7 +23155,7 @@
 		(uuid "f2ee6b55-6ccd-4533-a424-aef8f6ee1427")
 	)
 	(label "ENC_A"
-		(at 68.58 144.78 180)
+		(at 68.58 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23174,17 +23164,6 @@
 			(justify right bottom)
 		)
 		(uuid "f52d31fb-4a6c-4c42-a506-c613285ef727")
-	)
-	(label "SPI_MISO"
-		(at 68.58 46.99 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fe951d20-7726-48b6-a140-cafd6b0f60e6")
 	)
 	(label "ENC_SW"
 		(at 68.58 29.21 180)
@@ -23199,7 +23178,7 @@
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
-		(at 102.87 186.69 270)
+		(at 114.3 186.69 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23211,7 +23190,7 @@
 	)
 	(hierarchical_label "SCL"
 		(shape input)
-		(at 114.3 186.69 270)
+		(at 102.87 186.69 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -24493,7 +24472,7 @@
 		)
 	)
 	(sheet
-		(at 16.51 97.79)
+		(at 16.51 95.25)
 		(size 36.83 53.34)
 		(fields_autoplaced yes)
 		(stroke
@@ -24505,7 +24484,7 @@
 		)
 		(uuid "1dfdf8f6-c624-48d2-b647-f547c6376b37")
 		(property "Sheetname" "Debug"
-			(at 16.51 97.0784 0)
+			(at 16.51 94.5384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24514,7 +24493,7 @@
 			)
 		)
 		(property "Sheetfile" "Debug.kicad_sch"
-			(at 16.51 151.7146 0)
+			(at 16.51 149.1746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24523,7 +24502,7 @@
 			)
 		)
 		(pin "SCL" input
-			(at 53.34 104.14 0)
+			(at 53.34 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24533,7 +24512,7 @@
 			(uuid "1fe63cbc-f713-442c-8a4c-057825c08c1e")
 		)
 		(pin "SDA" bidirectional
-			(at 53.34 101.6 0)
+			(at 53.34 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24543,7 +24522,7 @@
 			(uuid "2a8a57a6-001e-4f4b-9ac4-0a70effc6e82")
 		)
 		(pin "LED_NEOPIXEL" input
-			(at 53.34 109.22 0)
+			(at 53.34 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24553,7 +24532,7 @@
 			(uuid "2fd383ab-3071-4e75-89b9-e4d1db2f3586")
 		)
 		(pin "SERVO_PWM" input
-			(at 53.34 113.03 0)
+			(at 53.34 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24563,7 +24542,7 @@
 			(uuid "139a8c98-504c-4695-98fb-ecb6279a902c")
 		)
 		(pin "ENC_SW" output
-			(at 53.34 142.24 0)
+			(at 53.34 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24573,7 +24552,7 @@
 			(uuid "7de78295-99ff-4a1b-bd7e-75868f6f309c")
 		)
 		(pin "ENC_A" output
-			(at 53.34 144.78 0)
+			(at 53.34 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24583,7 +24562,7 @@
 			(uuid "f172c0a8-60cd-4758-8287-0f8e5ecb64bb")
 		)
 		(pin "ENC_B" output
-			(at 53.34 147.32 0)
+			(at 53.34 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24593,7 +24572,7 @@
 			(uuid "63ba21b1-0c77-4acb-920e-9829b72694bf")
 		)
 		(pin "SPI_CLK" input
-			(at 53.34 137.16 0)
+			(at 53.34 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24603,7 +24582,7 @@
 			(uuid "09983010-e2e9-4ac4-a1b9-f3c9d736629b")
 		)
 		(pin "SPI_MOSI" input
-			(at 53.34 134.62 0)
+			(at 53.34 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24613,7 +24592,7 @@
 			(uuid "ad7f9f15-04ad-4b65-ad92-49775fbb2c1d")
 		)
 		(pin "~{EEPROM_CS}" input
-			(at 53.34 127 0)
+			(at 53.34 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24623,7 +24602,7 @@
 			(uuid "9539148f-4ece-4adf-bbe9-bf8ee13da390")
 		)
 		(pin "WRITE_PROT" input
-			(at 53.34 121.92 0)
+			(at 53.34 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24633,7 +24612,7 @@
 			(uuid "ce4337a4-0936-444c-ac37-f6c4840ebfc4")
 		)
 		(pin "SPI_MISO" output
-			(at 53.34 132.08 0)
+			(at 53.34 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24643,7 +24622,7 @@
 			(uuid "ff814e1b-3bae-49da-ad45-800013059c28")
 		)
 		(pin "~{SHIFTREG_CS}" input
-			(at 53.34 129.54 0)
+			(at 53.34 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24653,7 +24632,7 @@
 			(uuid "94203064-d493-4e26-aa77-50dd8586a9a8")
 		)
 		(pin "~{SHIFTREG_RST}" input
-			(at 53.34 124.46 0)
+			(at 53.34 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24663,7 +24642,7 @@
 			(uuid "87c3cea4-f148-48e0-ad63-aed85681b178")
 		)
 		(pin "LM35_V_OUT" output
-			(at 53.34 116.84 0)
+			(at 53.34 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24682,7 +24661,7 @@
 	)
 	(sheet
 		(at 16.51 20.32)
-		(size 36.83 31.75)
+		(size 36.83 29.21)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -24702,7 +24681,7 @@
 			)
 		)
 		(property "Sheetfile" "HMI.kicad_sch"
-			(at 16.51 52.6546 0)
+			(at 16.51 50.1146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24761,7 +24740,7 @@
 			(uuid "87ecf559-0b3b-4a9e-869c-d08c43038825")
 		)
 		(pin "SPI_MOSI" input
-			(at 53.34 49.53 0)
+			(at 53.34 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24800,16 +24779,6 @@
 			)
 			(uuid "b032beb5-3894-4ad1-812d-365867ee7127")
 		)
-		(pin "SPI_MISO" output
-			(at 53.34 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "3da383e5-cac5-4c4a-af52-09c8f4bdc4fc")
-		)
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17"
@@ -24819,7 +24788,7 @@
 		)
 	)
 	(sheet
-		(at 16.51 60.96)
+		(at 16.51 58.42)
 		(size 36.83 27.94)
 		(fields_autoplaced yes)
 		(stroke
@@ -24831,7 +24800,7 @@
 		)
 		(uuid "c2816d8d-ff46-44f3-8c3d-255f6d180fc9")
 		(property "Sheetname" "Sensors & actuators"
-			(at 16.51 60.2484 0)
+			(at 16.51 57.7084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24840,7 +24809,7 @@
 			)
 		)
 		(property "Sheetfile" "Sensors_and_actuators.kicad_sch"
-			(at 16.51 89.4846 0)
+			(at 16.51 86.9446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24849,7 +24818,7 @@
 			)
 		)
 		(pin "LED_NEOPIXEL" input
-			(at 53.34 63.5 0)
+			(at 53.34 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24859,7 +24828,7 @@
 			(uuid "c9cab379-3af8-4a0b-85bb-7a18123239aa")
 		)
 		(pin "SERVO_PWM" input
-			(at 53.34 67.31 0)
+			(at 53.34 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24869,7 +24838,7 @@
 			(uuid "6949e198-6b67-43d6-bd03-89890726176a")
 		)
 		(pin "WRITE_PROT" input
-			(at 53.34 76.2 0)
+			(at 53.34 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24879,7 +24848,7 @@
 			(uuid "8a8d3dbd-6cd0-4d7c-a6c3-48bcb1840cc9")
 		)
 		(pin "~{EEPROM_CS}" input
-			(at 53.34 78.74 0)
+			(at 53.34 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24889,7 +24858,7 @@
 			(uuid "e3884bd8-fbf9-4ad0-9034-5f0efdbd2d15")
 		)
 		(pin "SPI_CLK" input
-			(at 53.34 81.28 0)
+			(at 53.34 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24899,7 +24868,7 @@
 			(uuid "d9bf4a5b-b32a-46e5-aa01-5f26d82b4969")
 		)
 		(pin "SPI_MOSI" input
-			(at 53.34 86.36 0)
+			(at 53.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24909,7 +24878,7 @@
 			(uuid "2e9b67af-1da3-4420-817a-be1a0f89edd6")
 		)
 		(pin "SPI_MISO" output
-			(at 53.34 83.82 0)
+			(at 53.34 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24919,7 +24888,7 @@
 			(uuid "edd1615e-3cf9-4be9-b7c0-8cd0ad6f37bd")
 		)
 		(pin "LM35_V_OUT" output
-			(at 53.34 71.12 0)
+			(at 53.34 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)

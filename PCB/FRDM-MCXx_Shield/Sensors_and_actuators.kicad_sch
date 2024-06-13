@@ -6,12 +6,132 @@
 	(paper "A4")
 	(title_block
 		(title "Sensors & actuators")
-		(date "2024-05-05")
-		(rev "V2.0")
+		(date "2024-06-13")
+		(rev "V3.0")
 		(company "HAN")
 		(comment 1 "Authors: Thomas Ijseldijk, Hugo Arends & Emiel Visser")
 	)
 	(lib_symbols
+		(symbol "+5V_1"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_1_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -2605,7 +2725,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0720a1af-f208-4590-920b-f5e53f855165")
-		(property "Reference" "C12"
+		(property "Reference" "C11"
 			(at 134.62 102.87 90)
 			(effects
 				(font
@@ -2666,73 +2786,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 128.27 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ee40784-e649-41db-b0d4-2db8da1fbd4e")
-		(property "Reference" "#PWR044"
-			(at 128.27 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 128.27 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 128.27 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fbdf003f-31e0-45f8-a409-dae937c0f1fb")
-		)
-		(instances
-			(project "FRDM-MCXx_Shield"
-				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "#PWR044")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -2824,7 +2878,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30fcb75a-5c04-4d45-93f9-6cd60d89e3ce")
-		(property "Reference" "C10"
+		(property "Reference" "C9"
 			(at 44.45 109.22 0)
 			(effects
 				(font
@@ -2887,7 +2941,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "C10")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -2903,7 +2957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "374179bb-fb49-4faf-9056-657c033bcd46")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR040"
 			(at 105.41 80.01 0)
 			(effects
 				(font
@@ -2953,7 +3007,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "#PWR041")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -2969,7 +3023,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "399a02c6-8bff-4be4-bc2c-95c7f43b1db2")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR034"
 			(at 105.41 55.88 0)
 			(effects
 				(font
@@ -3019,7 +3073,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "#PWR035")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -3181,7 +3235,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bcf993d-6ff0-4683-8d3e-9bd4031dd522")
-		(property "Reference" "C9"
+		(property "Reference" "C8"
 			(at 246.38 99.06 90)
 			(effects
 				(font
@@ -3242,7 +3296,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "C9")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -3258,7 +3312,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4beba81f-78fd-4c8a-a16b-715e4883fb81")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR033"
 			(at 77.47 55.88 0)
 			(effects
 				(font
@@ -3308,7 +3362,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "#PWR034")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -3324,7 +3378,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54b62b96-dc60-4b43-89d8-06a3915eeadd")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR042"
 			(at 241.3 107.95 0)
 			(effects
 				(font
@@ -3374,7 +3428,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "#PWR043")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -3390,7 +3444,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bbbf356-a07b-4f87-856f-c10bcc7de8f2")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR035"
 			(at 63.5 62.23 0)
 			(effects
 				(font
@@ -3440,7 +3494,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "#PWR036")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -3689,7 +3743,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a621e1c-4278-4d0a-90a3-9fc3533461d2")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR038"
 			(at 49.53 80.01 0)
 			(effects
 				(font
@@ -3739,7 +3793,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "#PWR039")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -3755,7 +3809,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "740687ac-30e0-471f-92e1-a9344d032438")
-		(property "Reference" "C8"
+		(property "Reference" "C7"
 			(at 111.76 46.99 90)
 			(effects
 				(font
@@ -3816,7 +3870,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "C8")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -3832,7 +3886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84a6df6c-d4de-4b8a-9f2c-fd36ab41d9ce")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR045"
 			(at 140.97 118.11 0)
 			(effects
 				(font
@@ -3882,7 +3936,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "#PWR048")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -3898,7 +3952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d0a1363-7333-49b1-90d0-34b8917601d4")
-		(property "Reference" "C7"
+		(property "Reference" "C6"
 			(at 83.82 46.99 90)
 			(effects
 				(font
@@ -3959,7 +4013,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "C7")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -3975,7 +4029,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d79780e-c219-4016-b3b9-e585b7b32b49")
-		(property "Reference" "C11"
+		(property "Reference" "C10"
 			(at 60.96 109.22 0)
 			(effects
 				(font
@@ -4038,7 +4092,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "C11")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -4142,7 +4196,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "985e102f-76de-4776-ab60-eba653a56b8c")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR032"
 			(at 49.53 55.88 0)
 			(effects
 				(font
@@ -4192,7 +4246,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "#PWR033")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -4279,6 +4333,73 @@
 		)
 	)
 	(symbol
+		(lib_name "+5V_1")
+		(lib_id "power:+5V")
+		(at 128.27 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5cb0637-3860-407f-bde7-15408b0e1234")
+		(property "Reference" "#PWR043"
+			(at 128.27 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 128.27 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 128.27 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80087871-2346-4c4f-9b55-e6573fb0cde2")
+		)
+		(instances
+			(project "FRDM-MCXx_Shield"
+				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 39.37 138.43 0)
 		(unit 1)
@@ -4288,7 +4409,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aaf0dcad-e77c-4439-b051-21331f574a0e")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR051"
 			(at 39.37 144.78 0)
 			(effects
 				(font
@@ -4339,7 +4460,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "#PWR052")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -4355,7 +4476,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abb0d707-5b51-4a88-b004-16b8f14b3688")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR044"
 			(at 254 115.57 0)
 			(effects
 				(font
@@ -4405,7 +4526,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "#PWR045")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -4497,7 +4618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acf2d259-65fd-44a9-8e91-b76c35852055")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR048"
 			(at 40.64 123.19 0)
 			(effects
 				(font
@@ -4548,7 +4669,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "#PWR049")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -4564,7 +4685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad8dba20-bd82-4b96-b556-b065f4d2e571")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR049"
 			(at 128.27 140.97 0)
 			(effects
 				(font
@@ -4614,7 +4735,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "#PWR050")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -4630,7 +4751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b165cc79-46e9-4a7c-8baf-5cfce75045f0")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR041"
 			(at 40.64 107.95 0)
 			(effects
 				(font
@@ -4681,7 +4802,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "#PWR042")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -4779,7 +4900,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5020b3c-108d-47df-a890-4905d48f0e8d")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR036"
 			(at 91.44 62.23 0)
 			(effects
 				(font
@@ -4829,7 +4950,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "#PWR037")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -4911,7 +5032,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2737d31-423f-4639-ba78-32aba61dcb4c")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR050"
 			(at 241.3 140.97 0)
 			(effects
 				(font
@@ -4961,7 +5082,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "#PWR051")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -4977,7 +5098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3fa9d65-c52c-4dd0-9f71-9dde99c9e6ca")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR037"
 			(at 119.38 62.23 0)
 			(effects
 				(font
@@ -5027,7 +5148,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "#PWR038")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -5043,7 +5164,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d490b215-f107-48af-a4c0-1072510051bb")
-		(property "Reference" "C6"
+		(property "Reference" "C5"
 			(at 55.88 46.99 90)
 			(effects
 				(font
@@ -5104,7 +5225,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "C6")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -5120,7 +5241,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5f44524-8242-4608-a173-9f3664dc2a2f")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR039"
 			(at 77.47 80.01 0)
 			(effects
 				(font
@@ -5170,7 +5291,7 @@
 		(instances
 			(project "FRDM-MCXx_Shield"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/c2816d8d-ff46-44f3-8c3d-255f6d180fc9"
-					(reference "#PWR040")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
