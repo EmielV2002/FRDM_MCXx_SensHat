@@ -1,0 +1,29 @@
+**/.DS_Store
+
+set_armgcc_dir.bat
+
+# armgcc  generated files
+**/CMakeFiles
+**/debug
+**/release
+build_log.txt
+cmake_install.cmake
+CMakeCache.txt
+Makefile
+output.map
+
+# mcuxpresso generated files
+**/Debug
+**/Release
+*.launch
+*.jlink
+
+# mdk generated files
+**/DebugConfig
+**/debug
+**/release
+**/RTE
+*.uvgui*
+JLinkLog.txt
+JLinkSettings.ini
+EventRecorderStub.scvd

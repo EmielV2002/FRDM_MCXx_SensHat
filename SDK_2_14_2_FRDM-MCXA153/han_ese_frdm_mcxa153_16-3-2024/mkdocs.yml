@@ -1,0 +1,33 @@
+site_name: FRDM-MCXA153 Example projects (for SDK v2.14.2)
+docs_dir: 'frdm-mcxa153'
+
+theme:
+  name: readthedocs
+  
+copyright: Copyright &copy; 2024 HAN University of Applied Sciences
+  
+use_directory_urls: false
+
+nav:
+  - Introduction: index.md
+  - 01 Getting started: projects/general_examples/getting_started/readme_details.md
+  - 02 CMSIS: docs/cmsis_details.md
+  - 03 GPIO - output: projects/driver_examples/gpio/output/readme_details.md
+  - 04 GPIO - input polling: projects/driver_examples/gpio/input_polling/readme_details.md
+  - 05 Core clock: docs/core_clock_details.md
+  - 06 NVIC: docs/nvic_details.md
+  - 07 GPIO - input interrupt: projects/driver_examples/gpio/input_interrupt/readme_details.md
+  - 08 SysTick: projects/driver_examples/systick/match_interrupt/readme_details.md
+  - 09 Standard Counter or Timer - match interrupt: projects/driver_examples/ctimer/match_interrupt/readme_details.md
+  - 10 Standard Counter or Timer - PWM: projects/driver_examples/ctimer/pwm/readme_details.md
+  - 11 Flex PWM - edge aligned: projects/driver_examples/flexpwm/edge_aligned/readme_details.md
+  - 12 Low-Power timer: projects/driver_examples/lptmr/match_interrupt/readme_details.md
+  - 13 Low-Power UART - polling: projects/driver_examples/lpuart/polling/readme_details.md
+  - 14 Low-Power UART - interrupt: projects/driver_examples/lpuart/interrupt/readme_details.md
+  - 15 Low-Power UART - DMA: projects/driver_examples/lpuart/dma/readme_details.md
+  - 16 Low-Power I2C - polling: projects/driver_examples/lpi2c/controller_polling_p3t1755/readme_details.md
+  - 17 Low-Power I2C - interrupt: projects/driver_examples/lpi2c/controller_interrupt_p3t1755/readme_details.md
+  - 18 Low-Power SPI - polling: projects/driver_examples/lpspi/master_slave_polling/readme_details.md
+  - 19 Low-Power SPI - interrupt: projects/driver_examples/lpspi/master_slave_interrupt/readme_details.md
+  - __ Critical Section: projects/general_examples/critical_section/readme_details.md/
+  - __ Hardfault: projects/general_examples/hardfault/readme_details.md
