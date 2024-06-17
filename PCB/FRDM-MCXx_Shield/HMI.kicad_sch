@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "HMI")
-		(date "2024-06-13")
+		(date "2024-06-17")
 		(rev "V3.0")
 		(company "HAN")
 		(comment 1 "Authors: Thomas Ijseldijk, Hugo Arends & Emiel Visser")
@@ -3793,7 +3793,7 @@
 		)
 		(uuid "c3c9fc1c-e527-43bd-bd81-4fecc7325291")
 	)
-	(hierarchical_label "SPI_CLK"
+	(hierarchical_label "SPI_SCK"
 		(shape input)
 		(at 191.77 54.61 180)
 		(fields_autoplaced yes)

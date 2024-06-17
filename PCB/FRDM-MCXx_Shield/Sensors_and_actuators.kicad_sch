@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Sensors & actuators")
-		(date "2024-06-13")
+		(date "2024-06-17")
 		(rev "V3.0")
 		(company "HAN")
 		(comment 1 "Authors: Thomas Ijseldijk, Hugo Arends & Emiel Visser")
@@ -1932,6 +1932,12 @@
 		(uuid "b1b8ae4d-9520-4073-9c74-06e119d85de8")
 	)
 	(junction
+		(at 207.01 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c17f8377-304a-4b19-9800-059b9300fb2a")
+	)
+	(junction
 		(at 77.47 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1983,7 +1989,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 123.19) (xy 204.47 120.65)
+			(xy 207.01 123.19) (xy 207.01 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2033,7 +2039,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 125.73) (xy 195.58 120.65)
+			(xy 198.12 125.73) (xy 198.12 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2193,6 +2199,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 123.19) (xy 207.01 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "707c87cb-993d-41cb-96f1-e151c596d344")
+	)
+	(wire
+		(pts
 			(xy 119.38 54.61) (xy 115.57 54.61)
 		)
 		(stroke
@@ -2273,7 +2289,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 111.76) (xy 195.58 113.03)
+			(xy 198.12 111.76) (xy 198.12 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2303,7 +2319,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 125.73) (xy 227.33 125.73)
+			(xy 198.12 125.73) (xy 227.33 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2313,7 +2329,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 111.76) (xy 204.47 113.03)
+			(xy 207.01 111.76) (xy 207.01 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2353,7 +2369,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 123.19) (xy 227.33 123.19)
+			(xy 207.01 123.19) (xy 227.33 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2580,8 +2596,8 @@
 	)
 	(text_box "EEPROM"
 		(exclude_from_sim no)
-		(at 191.77 93.98 0)
-		(size 77.47 48.26)
+		(at 176.53 93.98 0)
+		(size 92.71 48.26)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2643,6 +2659,18 @@
 		)
 		(uuid "19b58e69-4c8c-4da7-b2d4-8ea0bbf618db")
 	)
+	(hierarchical_label "~{EEPROM_WP}"
+		(shape input)
+		(at 191.77 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "586299c6-3f23-4b5a-a95e-11c4c828dbf8")
+	)
 	(hierarchical_label "LM35_V_OUT"
 		(shape output)
 		(at 140.97 123.19 0)
@@ -2654,18 +2682,6 @@
 			(justify left)
 		)
 		(uuid "8652f1a0-0ebd-45d5-9d5c-211a2bc181b5")
-	)
-	(hierarchical_label "WRITE_PROT"
-		(shape input)
-		(at 224.79 123.19 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9f4dfcab-3d95-4617-8865-07db6e47a37e")
 	)
 	(hierarchical_label "SPI_MOSI"
 		(shape input)
@@ -2691,7 +2707,7 @@
 		)
 		(uuid "bd0d8aea-0056-43a9-877a-602d1c59c480")
 	)
-	(hierarchical_label "SPI_CLK"
+	(hierarchical_label "SPI_SCK"
 		(shape input)
 		(at 224.79 118.11 180)
 		(fields_autoplaced yes)
@@ -3081,7 +3097,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 195.58 116.84 0)
+		(at 198.12 116.84 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3091,7 +3107,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c4dac67-c3a1-48b3-8a61-a16c05c240ab")
 		(property "Reference" "R7"
-			(at 198.12 115.57 0)
+			(at 200.66 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3100,7 +3116,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 198.12 118.11 0)
+			(at 200.66 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3109,7 +3125,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 197.358 116.84 90)
+			(at 199.898 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3118,7 +3134,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 116.84 0)
+			(at 198.12 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3127,7 +3143,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 116.84 0)
+			(at 198.12 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3136,7 +3152,7 @@
 			)
 		)
 		(property "GPN" "GPR060310K"
-			(at 195.58 116.84 0)
+			(at 198.12 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3161,7 +3177,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 204.47 111.76 0)
+		(at 207.01 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3170,7 +3186,7 @@
 		(fields_autoplaced yes)
 		(uuid "427261f9-5b70-41a1-bcae-4ed7a9fbe834")
 		(property "Reference" "#PWR047"
-			(at 204.47 115.57 0)
+			(at 207.01 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3179,7 +3195,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 204.47 106.68 0)
+			(at 207.01 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3187,7 +3203,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 111.76 0)
+			(at 207.01 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3196,7 +3212,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 111.76 0)
+			(at 207.01 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3205,7 +3221,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 204.47 111.76 0)
+			(at 207.01 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4254,7 +4270,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 204.47 116.84 0)
+		(at 207.01 116.84 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4264,7 +4280,7 @@
 		(fields_autoplaced yes)
 		(uuid "9afb11f3-b794-4a1a-8328-4d6334157d24")
 		(property "Reference" "R8"
-			(at 207.01 115.57 0)
+			(at 209.55 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4273,7 +4289,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 207.01 118.11 0)
+			(at 209.55 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4282,7 +4298,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 206.248 116.84 90)
+			(at 208.788 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4291,7 +4307,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.47 116.84 0)
+			(at 207.01 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4300,7 +4316,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 204.47 116.84 0)
+			(at 207.01 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4309,7 +4325,7 @@
 			)
 		)
 		(property "GPN" "GPR060310K"
-			(at 204.47 116.84 0)
+			(at 207.01 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4958,7 +4974,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 195.58 111.76 0)
+		(at 198.12 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4967,7 +4983,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf24395c-08cf-461c-85cb-6c640ae6f76f")
 		(property "Reference" "#PWR046"
-			(at 195.58 115.57 0)
+			(at 198.12 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4976,7 +4992,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 195.58 106.68 0)
+			(at 198.12 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4984,7 +5000,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 111.76 0)
+			(at 198.12 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4993,7 +5009,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 111.76 0)
+			(at 198.12 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5002,7 +5018,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 111.76 0)
+			(at 198.12 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)

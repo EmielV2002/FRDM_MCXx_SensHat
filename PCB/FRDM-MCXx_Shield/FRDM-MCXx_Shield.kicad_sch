@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Main")
-		(date "2024-06-13")
+		(date "2024-06-17")
 		(rev "V3.0")
 		(company "HAN")
 		(comment 1 "Authors: Thomas Ijseldijk, Hugo Arends & Emiel Visser")
@@ -2514,6 +2514,10 @@
 		(uuid "5088b188-4445-4089-b1e1-0abc9f208ef9")
 	)
 	(no_connect
+		(at 196.85 46.99)
+		(uuid "51817c91-afdf-4bfc-b7e8-b75e0134da4a")
+	)
+	(no_connect
 		(at 196.85 34.29)
 		(uuid "53a1e644-e20e-4791-b4d2-b6314ee15ef6")
 	)
@@ -2608,10 +2612,6 @@
 	(no_connect
 		(at 250.19 46.99)
 		(uuid "dab8fa36-d626-4345-9e4f-8f227c4a7d39")
-	)
-	(no_connect
-		(at 237.49 71.12)
-		(uuid "dac79537-c265-485e-b64b-825273900818")
 	)
 	(no_connect
 		(at 209.55 76.2)
@@ -3021,6 +3021,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 71.12) (xy 222.25 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9606c8a5-07a7-4cea-a484-22d3dc23efa8")
+	)
+	(wire
+		(pts
 			(xy 196.85 73.66) (xy 181.61 73.66)
 		)
 		(stroke
@@ -3028,16 +3038,6 @@
 			(type default)
 		)
 		(uuid "965acfb0-061a-4140-93d6-5acc0cbb468e")
-	)
-	(wire
-		(pts
-			(xy 196.85 46.99) (xy 181.61 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e3bc9d0-2477-41ac-8202-1190537d81c7")
 	)
 	(wire
 		(pts
@@ -22583,7 +22583,7 @@
 		)
 		(uuid "38115d68-a7d3-4510-bb7a-044b3b50f18d")
 	)
-	(text_box "Changes V3.0:\n - Removed capacitor at encoder input.\n - Removed MISO connection with shiftregister.\n \n - Changed 3.3V to 5V at the LM35 power input.  \n - Changed P..... to P....\n"
+	(text_box "Changes V3.0:\n - Removed capacitor at encoder input.\n - Removed MISO connection with shiftregister.\n \n - Changed 3.3V to 5V at the LM35 power input.  \n - Changed P3_12 to P3_10.\n"
 		(exclude_from_sim no)
 		(at 16.51 161.29 0)
 		(size 59.69 33.02)
@@ -22659,6 +22659,17 @@
 		)
 		(uuid "ef5da3f3-a69d-4f8f-881a-06aeb180452c")
 	)
+	(label "SERVO_PWM"
+		(at 222.25 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0fe58882-8558-4d39-97c3-d3481822c5d1")
+	)
 	(label "LED_NEOPIXEL"
 		(at 68.58 106.68 180)
 		(fields_autoplaced yes)
@@ -22724,17 +22735,6 @@
 			(justify left bottom)
 		)
 		(uuid "29e91060-b8c0-4c85-a052-43302ee7a01c")
-	)
-	(label "WRITE_PROT"
-		(at 68.58 119.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2f210bda-3dbf-469f-9728-11aef5ea128e")
 	)
 	(label "ENC_SW"
 		(at 223.52 34.29 180)
@@ -22857,7 +22857,7 @@
 		)
 		(uuid "49ed63c6-d63f-4324-a1c9-47f0da28ed11")
 	)
-	(label "SPI_CLK"
+	(label "SPI_SCK"
 		(at 181.61 73.66 0)
 		(fields_autoplaced yes)
 		(effects
@@ -22868,7 +22868,18 @@
 		)
 		(uuid "4bece609-b04d-4046-8e81-b7b931fc99ab")
 	)
-	(label "SPI_CLK"
+	(label "~{EEPROM_WP}"
+		(at 68.58 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4c508c5e-d869-4e7a-9ac4-5070e9dd0f94")
+	)
+	(label "SPI_SCK"
 		(at 68.58 44.45 180)
 		(fields_autoplaced yes)
 		(effects
@@ -22967,17 +22978,6 @@
 		)
 		(uuid "6b3a7601-f471-4d3c-af06-336d4ebee82d")
 	)
-	(label "WRITE_PROT"
-		(at 68.58 73.66 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7aa461c6-3901-406c-850f-9f9de88d50a0")
-	)
 	(label "ENC_A"
 		(at 68.58 31.75 180)
 		(fields_autoplaced yes)
@@ -23000,18 +23000,7 @@
 		)
 		(uuid "7f8008f4-c899-4e22-bbe1-92485c3c4709")
 	)
-	(label "SERVO_PWM"
-		(at 181.61 46.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7fdc5e7d-90df-4f37-96da-a42345f50880")
-	)
-	(label "SPI_CLK"
+	(label "SPI_SCK"
 		(at 68.58 78.74 180)
 		(fields_autoplaced yes)
 		(effects
@@ -23088,6 +23077,17 @@
 		)
 		(uuid "d324c3b7-0ab1-4263-9c3e-9eaaa4710ec9")
 	)
+	(label "~{EEPROM_WP}"
+		(at 68.58 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d450b299-de9f-4890-88af-030f5310678b")
+	)
 	(label "~{SHIFTREG_RST}"
 		(at 68.58 121.92 180)
 		(fields_autoplaced yes)
@@ -23099,7 +23099,7 @@
 		)
 		(uuid "e4454ed7-580c-492f-8c55-e1fb0f9d8760")
 	)
-	(label "WRITE_PROT"
+	(label "~{EEPROM_WP}"
 		(at 181.61 41.91 0)
 		(fields_autoplaced yes)
 		(effects
@@ -23143,7 +23143,7 @@
 		)
 		(uuid "f1ea0231-34e5-4a5d-8db5-4ac72bc6ac6d")
 	)
-	(label "SPI_CLK"
+	(label "SPI_SCK"
 		(at 68.58 134.62 180)
 		(fields_autoplaced yes)
 		(effects
@@ -24571,16 +24571,6 @@
 			)
 			(uuid "63ba21b1-0c77-4acb-920e-9829b72694bf")
 		)
-		(pin "SPI_CLK" input
-			(at 53.34 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "09983010-e2e9-4ac4-a1b9-f3c9d736629b")
-		)
 		(pin "SPI_MOSI" input
 			(at 53.34 132.08 0)
 			(effects
@@ -24600,16 +24590,6 @@
 				(justify right)
 			)
 			(uuid "9539148f-4ece-4adf-bbe9-bf8ee13da390")
-		)
-		(pin "WRITE_PROT" input
-			(at 53.34 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "ce4337a4-0936-444c-ac37-f6c4840ebfc4")
 		)
 		(pin "SPI_MISO" output
 			(at 53.34 129.54 0)
@@ -24650,6 +24630,26 @@
 				(justify right)
 			)
 			(uuid "ebd361e0-9096-4158-ab60-26d5b6c88f79")
+		)
+		(pin "~{EEPROM_WP}" input
+			(at 53.34 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "25e9ff4c-f104-4b6d-81b0-df630e066505")
+		)
+		(pin "SPI_SCK" input
+			(at 53.34 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b6db7da9-5dca-4df7-81e9-6baf94817de6")
 		)
 		(instances
 			(project "FRDM-MCXx_Shield"
@@ -24769,7 +24769,7 @@
 			)
 			(uuid "a1f720eb-29eb-41c1-a281-9907f5b42957")
 		)
-		(pin "SPI_CLK" input
+		(pin "SPI_SCK" input
 			(at 53.34 44.45 0)
 			(effects
 				(font
@@ -24777,7 +24777,7 @@
 				)
 				(justify right)
 			)
-			(uuid "b032beb5-3894-4ad1-812d-365867ee7127")
+			(uuid "2dde5a7f-7039-4a93-9f42-91d646f13a8e")
 		)
 		(instances
 			(project "FRDM-MCXx_Shield"
@@ -24837,16 +24837,6 @@
 			)
 			(uuid "6949e198-6b67-43d6-bd03-89890726176a")
 		)
-		(pin "WRITE_PROT" input
-			(at 53.34 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "8a8d3dbd-6cd0-4d7c-a6c3-48bcb1840cc9")
-		)
 		(pin "~{EEPROM_CS}" input
 			(at 53.34 76.2 0)
 			(effects
@@ -24856,16 +24846,6 @@
 				(justify right)
 			)
 			(uuid "e3884bd8-fbf9-4ad0-9034-5f0efdbd2d15")
-		)
-		(pin "SPI_CLK" input
-			(at 53.34 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "d9bf4a5b-b32a-46e5-aa01-5f26d82b4969")
 		)
 		(pin "SPI_MOSI" input
 			(at 53.34 83.82 0)
@@ -24896,6 +24876,26 @@
 				(justify right)
 			)
 			(uuid "e171a9f0-ad39-4b12-a0df-de36bbe8c32d")
+		)
+		(pin "~{EEPROM_WP}" input
+			(at 53.34 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6674adb0-065e-49f2-8d12-630ee58f2911")
+		)
+		(pin "SPI_SCK" input
+			(at 53.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cc69e4ae-0d12-4137-853b-1ad0b5645081")
 		)
 		(instances
 			(project "FRDM-MCXx_Shield"

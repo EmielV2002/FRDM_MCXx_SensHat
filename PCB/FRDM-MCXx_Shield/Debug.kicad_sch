@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Debug")
-		(date "2024-05-20")
+		(date "2024-06-17")
 		(rev "V3.0")
 		(company "HAN")
 		(comment 1 "Authors: Thomas Ijseldijk, Hugo Arends & Emiel Visser")
@@ -8549,7 +8549,7 @@
 		)
 		(uuid "0f97867c-a26d-4419-8abf-d33a6bfa1fad")
 	)
-	(text_box "Encoder debug test points"
+	(text_box "Miscellaneous debug test points"
 		(exclude_from_sim no)
 		(at 20.32 156.21 0)
 		(size 71.12 31.75)
@@ -8654,7 +8654,7 @@
 		)
 		(uuid "1ffe03ca-54ab-4b51-95fb-85a19b3a1543")
 	)
-	(hierarchical_label "WRITE_PROT"
+	(hierarchical_label "~{EEPROM_WP}"
 		(shape input)
 		(at 38.1 77.47 180)
 		(fields_autoplaced yes)
@@ -8714,7 +8714,7 @@
 		)
 		(uuid "8a7327a7-3800-44b7-a9e9-b8a8a00c4ce2")
 	)
-	(hierarchical_label "SPI_CLK"
+	(hierarchical_label "SPI_SCK"
 		(shape input)
 		(at 38.1 55.88 180)
 		(fields_autoplaced yes)
