@@ -1,0 +1,24 @@
+--cpu=Cortex-M33.no_dsp --fpu=SoftVFP
+"debug\led_blinky.o"
+"debug\pin_mux.o"
+"debug\peripherals.o"
+"debug\board.o"
+"debug\clock_config.o"
+"debug\fsl_common.o"
+"debug\fsl_common_arm.o"
+"debug\fsl_clock.o"
+"debug\fsl_reset.o"
+"debug\fsl_lpuart.o"
+"debug\fsl_gpio.o"
+"debug\fsl_spc.o"
+"debug\system_mcxa153.o"
+"debug\startup_mcxa153.o"
+"debug\fsl_str.o"
+"debug\fsl_debug_console.o"
+"debug\fsl_assert.o"
+"debug\fsl_adapter_lpuart.o"
+"debug\fsl_component_generic_list.o"
+--library_type=microlib --diag_suppress 6314,9931 --strict --scatter "MCXA153_flash.scf"
+--remove --entry=Reset_Handler --diag_suppress 6314 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\led_blinky.map" -o debug\led_blinky.out

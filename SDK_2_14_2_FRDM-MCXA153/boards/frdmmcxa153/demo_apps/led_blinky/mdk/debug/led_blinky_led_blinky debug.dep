@@ -1,0 +1,399 @@
+Dependencies for Project 'led_blinky', Target 'led_blinky debug': (DO NOT MODIFY !)
+CompilerVersion: 6190000::V6.19::ARMCLANG
+F (../led_blinky.c)(0x65B60BA6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33+nodsp -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../../../../devices/MCXA153/drivers -I ../../../../../devices/MCXA153 -I ../../../../../devices/MCXA153/utilities/str -I ../../../../../devices/MCXA153/utilities/debug_console_lite -I ../../../../../components/uart -I ../../../../../components/lists -I ../../../../../CMSIS/Core/Include -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-IC:/Users/emiel/AppData/Local/Arm/Packs/NXP/MCXA153_DFP/17.0.0/devices/MCXA153-D__UVISION_VERSION="538" -DCPU_MCXA153VLH -DDEBUG -DCPU_MCXA153VLH -DMCUXPRESSO_SDK-o debug/led_blinky.o -MD)
+I (..\pin_mux.h)(0x65B60BA6)
+I (..\peripherals.h)(0x65B60BA6)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_common.h)(0x65B60BAA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6388AB78)
+I (..\..\..\..\..\devices\MCXA153\fsl_device_registers.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\MCXA153.h)(0x65B60BAA)
+I (..\..\..\..\..\CMSIS\Core\Include\core_cm33.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_version.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_compiler.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_armclang.h)(0x65B60BA4)
+I (..\..\..\..\..\devices\MCXA153\system_MCXA153.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\MCXA153_features.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_common_arm.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_clock.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_reset.h)(0x65B60BAA)
+I (..\board.h)(0x65B60BA6)
+I (..\clock_config.h)(0x65B60BA6)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_gpio.h)(0x65B60BAA)
+F (../pin_mux.c)(0x65B60BA6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33+nodsp -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../../../../devices/MCXA153/drivers -I ../../../../../devices/MCXA153 -I ../../../../../devices/MCXA153/utilities/str -I ../../../../../devices/MCXA153/utilities/debug_console_lite -I ../../../../../components/uart -I ../../../../../components/lists -I ../../../../../CMSIS/Core/Include -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-IC:/Users/emiel/AppData/Local/Arm/Packs/NXP/MCXA153_DFP/17.0.0/devices/MCXA153-D__UVISION_VERSION="538" -DCPU_MCXA153VLH -DDEBUG -DCPU_MCXA153VLH -DMCUXPRESSO_SDK-o debug/pin_mux.o -MD)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_common.h)(0x65B60BAA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6388AB78)
+I (..\..\..\..\..\devices\MCXA153\fsl_device_registers.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\MCXA153.h)(0x65B60BAA)
+I (..\..\..\..\..\CMSIS\Core\Include\core_cm33.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_version.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_compiler.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_armclang.h)(0x65B60BA4)
+I (..\..\..\..\..\devices\MCXA153\system_MCXA153.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\MCXA153_features.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_common_arm.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_clock.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_reset.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_port.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_gpio.h)(0x65B60BAA)
+I (..\pin_mux.h)(0x65B60BA6)
+F (../pin_mux.h)(0x65B60BA6)()
+F (../peripherals.c)(0x65B60BA6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33+nodsp -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../../../../devices/MCXA153/drivers -I ../../../../../devices/MCXA153 -I ../../../../../devices/MCXA153/utilities/str -I ../../../../../devices/MCXA153/utilities/debug_console_lite -I ../../../../../components/uart -I ../../../../../components/lists -I ../../../../../CMSIS/Core/Include -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-IC:/Users/emiel/AppData/Local/Arm/Packs/NXP/MCXA153_DFP/17.0.0/devices/MCXA153-D__UVISION_VERSION="538" -DCPU_MCXA153VLH -DDEBUG -DCPU_MCXA153VLH -DMCUXPRESSO_SDK-o debug/peripherals.o -MD)
+I (..\peripherals.h)(0x65B60BA6)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_common.h)(0x65B60BAA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6388AB78)
+I (..\..\..\..\..\devices\MCXA153\fsl_device_registers.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\MCXA153.h)(0x65B60BAA)
+I (..\..\..\..\..\CMSIS\Core\Include\core_cm33.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_version.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_compiler.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_armclang.h)(0x65B60BA4)
+I (..\..\..\..\..\devices\MCXA153\system_MCXA153.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\MCXA153_features.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_common_arm.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_clock.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_reset.h)(0x65B60BAA)
+F (../peripherals.h)(0x65B60BA6)()
+F (../board.c)(0x65B60BA6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33+nodsp -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../../../../devices/MCXA153/drivers -I ../../../../../devices/MCXA153 -I ../../../../../devices/MCXA153/utilities/str -I ../../../../../devices/MCXA153/utilities/debug_console_lite -I ../../../../../components/uart -I ../../../../../components/lists -I ../../../../../CMSIS/Core/Include -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-IC:/Users/emiel/AppData/Local/Arm/Packs/NXP/MCXA153_DFP/17.0.0/devices/MCXA153-D__UVISION_VERSION="538" -DCPU_MCXA153VLH -DDEBUG -DCPU_MCXA153VLH -DMCUXPRESSO_SDK-o debug/board.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6388AB78)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_common.h)(0x65B60BAA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6388AB78)
+I (..\..\..\..\..\devices\MCXA153\fsl_device_registers.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\MCXA153.h)(0x65B60BAA)
+I (..\..\..\..\..\CMSIS\Core\Include\core_cm33.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_version.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_compiler.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_armclang.h)(0x65B60BA4)
+I (..\..\..\..\..\devices\MCXA153\system_MCXA153.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\MCXA153_features.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_common_arm.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_clock.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_reset.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\utilities\debug_console_lite\fsl_debug_console.h)(0x65B60BAA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6388AB78)
+I (..\pin_mux.h)(0x65B60BA6)
+I (..\board.h)(0x65B60BA6)
+I (..\clock_config.h)(0x65B60BA6)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_gpio.h)(0x65B60BAA)
+F (../board.h)(0x65B60BA6)()
+F (../clock_config.c)(0x65B60BA6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33+nodsp -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../../../../devices/MCXA153/drivers -I ../../../../../devices/MCXA153 -I ../../../../../devices/MCXA153/utilities/str -I ../../../../../devices/MCXA153/utilities/debug_console_lite -I ../../../../../components/uart -I ../../../../../components/lists -I ../../../../../CMSIS/Core/Include -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-IC:/Users/emiel/AppData/Local/Arm/Packs/NXP/MCXA153_DFP/17.0.0/devices/MCXA153-D__UVISION_VERSION="538" -DCPU_MCXA153VLH -DDEBUG -DCPU_MCXA153VLH -DMCUXPRESSO_SDK-o debug/clock_config.o -MD)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_clock.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_common.h)(0x65B60BAA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6388AB78)
+I (..\..\..\..\..\devices\MCXA153\fsl_device_registers.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\MCXA153.h)(0x65B60BAA)
+I (..\..\..\..\..\CMSIS\Core\Include\core_cm33.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_version.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_compiler.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_armclang.h)(0x65B60BA4)
+I (..\..\..\..\..\devices\MCXA153\system_MCXA153.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\MCXA153_features.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_common_arm.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_reset.h)(0x65B60BAA)
+I (..\clock_config.h)(0x65B60BA6)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_spc.h)(0x65B60BAA)
+F (../clock_config.h)(0x65B60BA6)()
+F (../readme.md)(0x65B60BA6)()
+F (../../../../../devices/MCXA153/drivers/fsl_common.h)(0x65B60BAA)()
+F (../../../../../devices/MCXA153/drivers/fsl_common.c)(0x65B60BAA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33+nodsp -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../../../../devices/MCXA153/drivers -I ../../../../../devices/MCXA153 -I ../../../../../devices/MCXA153/utilities/str -I ../../../../../devices/MCXA153/utilities/debug_console_lite -I ../../../../../components/uart -I ../../../../../components/lists -I ../../../../../CMSIS/Core/Include -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-IC:/Users/emiel/AppData/Local/Arm/Packs/NXP/MCXA153_DFP/17.0.0/devices/MCXA153-D__UVISION_VERSION="538" -DCPU_MCXA153VLH -DDEBUG -DCPU_MCXA153VLH -DMCUXPRESSO_SDK-o debug/fsl_common.o -MD)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_common.h)(0x65B60BAA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6388AB78)
+I (..\..\..\..\..\devices\MCXA153\fsl_device_registers.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\MCXA153.h)(0x65B60BAA)
+I (..\..\..\..\..\CMSIS\Core\Include\core_cm33.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_version.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_compiler.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_armclang.h)(0x65B60BA4)
+I (..\..\..\..\..\devices\MCXA153\system_MCXA153.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\MCXA153_features.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_common_arm.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_clock.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_reset.h)(0x65B60BAA)
+F (../../../../../devices/MCXA153/drivers/fsl_common_arm.c)(0x65B60BAA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33+nodsp -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../../../../devices/MCXA153/drivers -I ../../../../../devices/MCXA153 -I ../../../../../devices/MCXA153/utilities/str -I ../../../../../devices/MCXA153/utilities/debug_console_lite -I ../../../../../components/uart -I ../../../../../components/lists -I ../../../../../CMSIS/Core/Include -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-IC:/Users/emiel/AppData/Local/Arm/Packs/NXP/MCXA153_DFP/17.0.0/devices/MCXA153-D__UVISION_VERSION="538" -DCPU_MCXA153VLH -DDEBUG -DCPU_MCXA153VLH -DMCUXPRESSO_SDK-o debug/fsl_common_arm.o -MD)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_common.h)(0x65B60BAA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6388AB78)
+I (..\..\..\..\..\devices\MCXA153\fsl_device_registers.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\MCXA153.h)(0x65B60BAA)
+I (..\..\..\..\..\CMSIS\Core\Include\core_cm33.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_version.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_compiler.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_armclang.h)(0x65B60BA4)
+I (..\..\..\..\..\devices\MCXA153\system_MCXA153.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\MCXA153_features.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_common_arm.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_clock.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_reset.h)(0x65B60BAA)
+F (../../../../../devices/MCXA153/drivers/fsl_common_arm.h)(0x65B60BAA)()
+F (../../../../../devices/MCXA153/drivers/fsl_clock.h)(0x65B60BAA)()
+F (../../../../../devices/MCXA153/drivers/fsl_clock.c)(0x65B60BAA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33+nodsp -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../../../../devices/MCXA153/drivers -I ../../../../../devices/MCXA153 -I ../../../../../devices/MCXA153/utilities/str -I ../../../../../devices/MCXA153/utilities/debug_console_lite -I ../../../../../components/uart -I ../../../../../components/lists -I ../../../../../CMSIS/Core/Include -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-IC:/Users/emiel/AppData/Local/Arm/Packs/NXP/MCXA153_DFP/17.0.0/devices/MCXA153-D__UVISION_VERSION="538" -DCPU_MCXA153VLH -DDEBUG -DCPU_MCXA153VLH -DMCUXPRESSO_SDK-o debug/fsl_clock.o -MD)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_clock.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_common.h)(0x65B60BAA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6388AB78)
+I (..\..\..\..\..\devices\MCXA153\fsl_device_registers.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\MCXA153.h)(0x65B60BAA)
+I (..\..\..\..\..\CMSIS\Core\Include\core_cm33.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_version.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_compiler.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_armclang.h)(0x65B60BA4)
+I (..\..\..\..\..\devices\MCXA153\system_MCXA153.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\MCXA153_features.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_common_arm.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_reset.h)(0x65B60BAA)
+F (../../../../../devices/MCXA153/drivers/fsl_reset.h)(0x65B60BAA)()
+F (../../../../../devices/MCXA153/drivers/fsl_reset.c)(0x65B60BAA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33+nodsp -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../../../../devices/MCXA153/drivers -I ../../../../../devices/MCXA153 -I ../../../../../devices/MCXA153/utilities/str -I ../../../../../devices/MCXA153/utilities/debug_console_lite -I ../../../../../components/uart -I ../../../../../components/lists -I ../../../../../CMSIS/Core/Include -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-IC:/Users/emiel/AppData/Local/Arm/Packs/NXP/MCXA153_DFP/17.0.0/devices/MCXA153-D__UVISION_VERSION="538" -DCPU_MCXA153VLH -DDEBUG -DCPU_MCXA153VLH -DMCUXPRESSO_SDK-o debug/fsl_reset.o -MD)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_common.h)(0x65B60BAA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6388AB78)
+I (..\..\..\..\..\devices\MCXA153\fsl_device_registers.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\MCXA153.h)(0x65B60BAA)
+I (..\..\..\..\..\CMSIS\Core\Include\core_cm33.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_version.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_compiler.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_armclang.h)(0x65B60BA4)
+I (..\..\..\..\..\devices\MCXA153\system_MCXA153.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\MCXA153_features.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_common_arm.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_clock.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_reset.h)(0x65B60BAA)
+F (../../../../../devices/MCXA153/drivers/fsl_lpuart.h)(0x65B60BAA)()
+F (../../../../../devices/MCXA153/drivers/fsl_lpuart.c)(0x65B60BAA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33+nodsp -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../../../../devices/MCXA153/drivers -I ../../../../../devices/MCXA153 -I ../../../../../devices/MCXA153/utilities/str -I ../../../../../devices/MCXA153/utilities/debug_console_lite -I ../../../../../components/uart -I ../../../../../components/lists -I ../../../../../CMSIS/Core/Include -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-IC:/Users/emiel/AppData/Local/Arm/Packs/NXP/MCXA153_DFP/17.0.0/devices/MCXA153-D__UVISION_VERSION="538" -DCPU_MCXA153VLH -DDEBUG -DCPU_MCXA153VLH -DMCUXPRESSO_SDK-o debug/fsl_lpuart.o -MD)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_lpuart.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_common.h)(0x65B60BAA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6388AB78)
+I (..\..\..\..\..\devices\MCXA153\fsl_device_registers.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\MCXA153.h)(0x65B60BAA)
+I (..\..\..\..\..\CMSIS\Core\Include\core_cm33.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_version.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_compiler.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_armclang.h)(0x65B60BA4)
+I (..\..\..\..\..\devices\MCXA153\system_MCXA153.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\MCXA153_features.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_common_arm.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_clock.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_reset.h)(0x65B60BAA)
+F (../../../../../devices/MCXA153/drivers/fsl_gpio.h)(0x65B60BAA)()
+F (../../../../../devices/MCXA153/drivers/fsl_gpio.c)(0x65B60BAA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33+nodsp -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../../../../devices/MCXA153/drivers -I ../../../../../devices/MCXA153 -I ../../../../../devices/MCXA153/utilities/str -I ../../../../../devices/MCXA153/utilities/debug_console_lite -I ../../../../../components/uart -I ../../../../../components/lists -I ../../../../../CMSIS/Core/Include -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-IC:/Users/emiel/AppData/Local/Arm/Packs/NXP/MCXA153_DFP/17.0.0/devices/MCXA153-D__UVISION_VERSION="538" -DCPU_MCXA153VLH -DDEBUG -DCPU_MCXA153VLH -DMCUXPRESSO_SDK-o debug/fsl_gpio.o -MD)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_gpio.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_common.h)(0x65B60BAA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6388AB78)
+I (..\..\..\..\..\devices\MCXA153\fsl_device_registers.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\MCXA153.h)(0x65B60BAA)
+I (..\..\..\..\..\CMSIS\Core\Include\core_cm33.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_version.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_compiler.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_armclang.h)(0x65B60BA4)
+I (..\..\..\..\..\devices\MCXA153\system_MCXA153.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\MCXA153_features.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_common_arm.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_clock.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_reset.h)(0x65B60BAA)
+F (../../../../../devices/MCXA153/drivers/fsl_port.h)(0x65B60BAA)()
+F (../../../../../devices/MCXA153/drivers/fsl_spc.h)(0x65B60BAA)()
+F (../../../../../devices/MCXA153/drivers/fsl_spc.c)(0x65B60BAA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33+nodsp -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../../../../devices/MCXA153/drivers -I ../../../../../devices/MCXA153 -I ../../../../../devices/MCXA153/utilities/str -I ../../../../../devices/MCXA153/utilities/debug_console_lite -I ../../../../../components/uart -I ../../../../../components/lists -I ../../../../../CMSIS/Core/Include -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-IC:/Users/emiel/AppData/Local/Arm/Packs/NXP/MCXA153_DFP/17.0.0/devices/MCXA153-D__UVISION_VERSION="538" -DCPU_MCXA153VLH -DDEBUG -DCPU_MCXA153VLH -DMCUXPRESSO_SDK-o debug/fsl_spc.o -MD)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_spc.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_common.h)(0x65B60BAA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6388AB78)
+I (..\..\..\..\..\devices\MCXA153\fsl_device_registers.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\MCXA153.h)(0x65B60BAA)
+I (..\..\..\..\..\CMSIS\Core\Include\core_cm33.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_version.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_compiler.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_armclang.h)(0x65B60BA4)
+I (..\..\..\..\..\devices\MCXA153\system_MCXA153.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\MCXA153_features.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_common_arm.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_clock.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_reset.h)(0x65B60BAA)
+F (../../../../../devices/MCXA153/fsl_device_registers.h)(0x65B60BAA)()
+F (../../../../../devices/MCXA153/MCXA153.h)(0x65B60BAA)()
+F (../../../../../devices/MCXA153/MCXA153_features.h)(0x65B60BAA)()
+F (../../../../../devices/MCXA153/system_MCXA153.c)(0x65B60BAA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33+nodsp -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../../../../devices/MCXA153/drivers -I ../../../../../devices/MCXA153 -I ../../../../../devices/MCXA153/utilities/str -I ../../../../../devices/MCXA153/utilities/debug_console_lite -I ../../../../../components/uart -I ../../../../../components/lists -I ../../../../../CMSIS/Core/Include -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-IC:/Users/emiel/AppData/Local/Arm/Packs/NXP/MCXA153_DFP/17.0.0/devices/MCXA153-D__UVISION_VERSION="538" -DCPU_MCXA153VLH -DDEBUG -DCPU_MCXA153VLH -DMCUXPRESSO_SDK-o debug/system_mcxa153.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6388AB78)
+I (..\..\..\..\..\devices\MCXA153\fsl_device_registers.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\MCXA153.h)(0x65B60BAA)
+I (..\..\..\..\..\CMSIS\Core\Include\core_cm33.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_version.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_compiler.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_armclang.h)(0x65B60BA4)
+I (..\..\..\..\..\devices\MCXA153\system_MCXA153.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\MCXA153_features.h)(0x65B60BAA)
+F (../../../../../devices/MCXA153/system_MCXA153.h)(0x65B60BAA)()
+F (../../../../../devices/MCXA153/arm/startup_MCXA153.S)(0x65B60BAA)(--target=arm-arm-none-eabi -mcpu=cortex-m33+nodsp -mfpu=none -mfloat-abi=soft -masm=gnu -c-gdwarf-4 -D__MICROLIB -D__EVAL-IC:/Users/emiel/AppData/Local/Arm/Packs/NXP/MCXA153_DFP/17.0.0/devices/MCXA153-D__UVISION_VERSION=538 -DCPU_MCXA153VLH -DCPU_LPC55S69JBD100_cm33_core0 -DDEBUG -D__CC_ARM -DKEIL -DDEBUG-o debug/startup_mcxa153.o)
+F (../../../../../devices/MCXA153/utilities/str/fsl_str.c)(0x65B60BAA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33+nodsp -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../../../../devices/MCXA153/drivers -I ../../../../../devices/MCXA153 -I ../../../../../devices/MCXA153/utilities/str -I ../../../../../devices/MCXA153/utilities/debug_console_lite -I ../../../../../components/uart -I ../../../../../components/lists -I ../../../../../CMSIS/Core/Include -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-IC:/Users/emiel/AppData/Local/Arm/Packs/NXP/MCXA153_DFP/17.0.0/devices/MCXA153-D__UVISION_VERSION="538" -DCPU_MCXA153VLH -DDEBUG -DCPU_MCXA153VLH -DMCUXPRESSO_SDK-o debug/fsl_str.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\errno.h)(0x6388AB78)
+I (..\..\..\..\..\devices\MCXA153\utilities\str\fsl_str.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_common.h)(0x65B60BAA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6388AB78)
+I (..\..\..\..\..\devices\MCXA153\fsl_device_registers.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\MCXA153.h)(0x65B60BAA)
+I (..\..\..\..\..\CMSIS\Core\Include\core_cm33.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_version.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_compiler.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_armclang.h)(0x65B60BA4)
+I (..\..\..\..\..\devices\MCXA153\system_MCXA153.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\MCXA153_features.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_common_arm.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_clock.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_reset.h)(0x65B60BAA)
+F (../../../../../devices/MCXA153/utilities/str/fsl_str.h)(0x65B60BAA)()
+F (../../../../../devices/MCXA153/utilities/debug_console_lite/fsl_debug_console.c)(0x65B60BAA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33+nodsp -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../../../../devices/MCXA153/drivers -I ../../../../../devices/MCXA153 -I ../../../../../devices/MCXA153/utilities/str -I ../../../../../devices/MCXA153/utilities/debug_console_lite -I ../../../../../components/uart -I ../../../../../components/lists -I ../../../../../CMSIS/Core/Include -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-IC:/Users/emiel/AppData/Local/Arm/Packs/NXP/MCXA153_DFP/17.0.0/devices/MCXA153-D__UVISION_VERSION="538" -DCPU_MCXA153VLH -DDEBUG -DCPU_MCXA153VLH -DMCUXPRESSO_SDK-o debug/fsl_debug_console.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x6388AB78)
+I (..\..\..\..\..\devices\MCXA153\utilities\debug_console_lite\fsl_debug_console.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_common.h)(0x65B60BAA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6388AB78)
+I (..\..\..\..\..\devices\MCXA153\fsl_device_registers.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\MCXA153.h)(0x65B60BAA)
+I (..\..\..\..\..\CMSIS\Core\Include\core_cm33.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_version.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_compiler.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_armclang.h)(0x65B60BA4)
+I (..\..\..\..\..\devices\MCXA153\system_MCXA153.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\MCXA153_features.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_common_arm.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_clock.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_reset.h)(0x65B60BAA)
+I (..\..\..\..\..\components\uart\fsl_adapter_uart.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\utilities\str\fsl_str.h)(0x65B60BAA)
+F (../../../../../devices/MCXA153/utilities/debug_console_lite/fsl_debug_console.h)(0x65B60BAA)()
+F (../../../../../devices/MCXA153/utilities/debug_console_lite/fsl_assert.c)(0x65B60BAA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33+nodsp -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../../../../devices/MCXA153/drivers -I ../../../../../devices/MCXA153 -I ../../../../../devices/MCXA153/utilities/str -I ../../../../../devices/MCXA153/utilities/debug_console_lite -I ../../../../../components/uart -I ../../../../../components/lists -I ../../../../../CMSIS/Core/Include -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-IC:/Users/emiel/AppData/Local/Arm/Packs/NXP/MCXA153_DFP/17.0.0/devices/MCXA153-D__UVISION_VERSION="538" -DCPU_MCXA153VLH -DDEBUG -DCPU_MCXA153VLH -DMCUXPRESSO_SDK-o debug/fsl_assert.o -MD)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_common.h)(0x65B60BAA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6388AB78)
+I (..\..\..\..\..\devices\MCXA153\fsl_device_registers.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\MCXA153.h)(0x65B60BAA)
+I (..\..\..\..\..\CMSIS\Core\Include\core_cm33.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_version.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_compiler.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_armclang.h)(0x65B60BA4)
+I (..\..\..\..\..\devices\MCXA153\system_MCXA153.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\MCXA153_features.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_common_arm.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_clock.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_reset.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\utilities\debug_console_lite\fsl_debug_console.h)(0x65B60BAA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6388AB78)
+F (../../../../../components/uart/fsl_adapter_uart.h)(0x65B60BAA)()
+F (../../../../../components/uart/fsl_adapter_lpuart.c)(0x65B60BAA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33+nodsp -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../../../../devices/MCXA153/drivers -I ../../../../../devices/MCXA153 -I ../../../../../devices/MCXA153/utilities/str -I ../../../../../devices/MCXA153/utilities/debug_console_lite -I ../../../../../components/uart -I ../../../../../components/lists -I ../../../../../CMSIS/Core/Include -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-IC:/Users/emiel/AppData/Local/Arm/Packs/NXP/MCXA153_DFP/17.0.0/devices/MCXA153-D__UVISION_VERSION="538" -DCPU_MCXA153VLH -DDEBUG -DCPU_MCXA153VLH -DMCUXPRESSO_SDK-o debug/fsl_adapter_lpuart.o -MD)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_lpuart.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_common.h)(0x65B60BAA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6388AB78)
+I (..\..\..\..\..\devices\MCXA153\fsl_device_registers.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\MCXA153.h)(0x65B60BAA)
+I (..\..\..\..\..\CMSIS\Core\Include\core_cm33.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_version.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_compiler.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_armclang.h)(0x65B60BA4)
+I (..\..\..\..\..\devices\MCXA153\system_MCXA153.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\MCXA153_features.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_common_arm.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_clock.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_reset.h)(0x65B60BAA)
+I (..\..\..\..\..\components\uart\fsl_adapter_uart.h)(0x65B60BAA)
+F (../../../../../components/lists/fsl_component_generic_list.h)(0x65B60BAA)()
+F (../../../../../components/lists/fsl_component_generic_list.c)(0x65B60BAA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33+nodsp -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../../../../devices/MCXA153/drivers -I ../../../../../devices/MCXA153 -I ../../../../../devices/MCXA153/utilities/str -I ../../../../../devices/MCXA153/utilities/debug_console_lite -I ../../../../../components/uart -I ../../../../../components/lists -I ../../../../../CMSIS/Core/Include -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-IC:/Users/emiel/AppData/Local/Arm/Packs/NXP/MCXA153_DFP/17.0.0/devices/MCXA153-D__UVISION_VERSION="538" -DCPU_MCXA153VLH -DDEBUG -DCPU_MCXA153VLH -DMCUXPRESSO_SDK-o debug/fsl_component_generic_list.o -MD)
+I (..\..\..\..\..\components\lists\fsl_component_generic_list.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_common.h)(0x65B60BAA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6388AB78)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6388AB78)
+I (..\..\..\..\..\devices\MCXA153\fsl_device_registers.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\MCXA153.h)(0x65B60BAA)
+I (..\..\..\..\..\CMSIS\Core\Include\core_cm33.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_version.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_compiler.h)(0x65B60BA4)
+I (..\..\..\..\..\CMSIS\Core\Include\cmsis_armclang.h)(0x65B60BA4)
+I (..\..\..\..\..\devices\MCXA153\system_MCXA153.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\MCXA153_features.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_common_arm.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_clock.h)(0x65B60BAA)
+I (..\..\..\..\..\devices\MCXA153\drivers\fsl_reset.h)(0x65B60BAA)
+F (../../../../../CMSIS/Core/Include/cmsis_armclang.h)(0x65B60BA4)()
+F (../../../../../CMSIS/Core/Include/cmsis_armclang_ltm.h)(0x65B60BA4)()
+F (../../../../../CMSIS/Core/Include/cmsis_compiler.h)(0x65B60BA4)()
+F (../../../../../CMSIS/Core/Include/cmsis_version.h)(0x65B60BA4)()
+F (../../../../../CMSIS/Core/Include/core_cm33.h)(0x65B60BA4)()
+F (../../../../../CMSIS/Core/Include/mpu_armv8.h)(0x65B60BA4)()
+F (../../../../../CMSIS/Core/Include/tz_context.h)(0x65B60BA4)()
