@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 37,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -67,11 +67,30 @@
     "visible_layers": "ffffeff_ffffffff",
     "zone_display_mode": 0
   },
+  "git": {
+    "repo_password": "",
+    "repo_type": "",
+    "repo_username": "",
+    "ssh_key": ""
+  },
   "meta": {
-    "filename": "FRDM-MCXx_Shield_V1.3.kicad_prl",
+    "filename": "FRDM-MCXx_Shield_V3.0.kicad_prl",
     "version": 3
   },
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "FRDM-MCXx_Shield_V3.0.kicad_pcb",
+        "open": false,
+        "window": {
+          "display": 1,
+          "maximized": true,
+          "pos_x": -12,
+          "pos_y": -12,
+          "size_x": 3864,
+          "size_y": 2100
+        }
+      }
+    ]
   }
 }
