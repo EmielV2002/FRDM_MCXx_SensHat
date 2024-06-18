@@ -1,9 +1,0 @@
-#ifndef POTENTIOMETER_H
-#define POTENTIOMETER_H
-
-#include <MCXA153.h>
-
-//void potentiometer_init(void); //not necesary 
-int potentiometer_main(void);
-
-#endif // POTENTIOMETER_H
