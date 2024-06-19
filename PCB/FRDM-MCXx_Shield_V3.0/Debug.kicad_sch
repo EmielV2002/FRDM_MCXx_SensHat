@@ -8846,7 +8846,7 @@
 			(uuid "5d56ca99-e84b-4489-a36d-80d7ae155fa2")
 		)
 		(instances
-			(project "FRDM-MCXx_Shield"
+			(project "FRDM-MCXx_Shield_V3.0"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
 					(reference "#PWR031")
 					(unit 1)
@@ -8914,7 +8914,7 @@
 			(uuid "a75b9a0f-4bf8-40ff-954e-6ac309ff8f16")
 		)
 		(instances
-			(project "FRDM-MCXx_Shield"
+			(project "FRDM-MCXx_Shield_V3.0"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
 					(reference "#PWR023")
 					(unit 1)
@@ -8981,7 +8981,7 @@
 			(uuid "1330138a-416b-49d6-aa19-65031c1e6553")
 		)
 		(instances
-			(project "FRDM-MCXx_Shield"
+			(project "FRDM-MCXx_Shield_V3.0"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
 					(reference "#PWR027")
 					(unit 1)
@@ -9064,7 +9064,7 @@
 			(uuid "56b7a72f-b6dd-4729-8e9c-a80eb480dbd2")
 		)
 		(instances
-			(project "FRDM-MCXx_Shield"
+			(project "FRDM-MCXx_Shield_V3.0"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
 					(reference "J6")
 					(unit 1)
@@ -9202,7 +9202,7 @@
 			(uuid "b1ed7d88-ecff-48a6-acbf-ed76d63fe161")
 		)
 		(instances
-			(project "FRDM-MCXx_Shield"
+			(project "FRDM-MCXx_Shield_V3.0"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
 					(reference "TP5")
 					(unit 1)
@@ -9340,7 +9340,7 @@
 			(uuid "f3f26b80-3db1-4d4b-8a8d-4886f53c35cf")
 		)
 		(instances
-			(project "FRDM-MCXx_Shield"
+			(project "FRDM-MCXx_Shield_V3.0"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
 					(reference "TP6")
 					(unit 1)
@@ -9408,7 +9408,7 @@
 			(uuid "a16ab408-b8d9-4970-a2a0-5eaaa634738c")
 		)
 		(instances
-			(project "FRDM-MCXx_Shield"
+			(project "FRDM-MCXx_Shield_V3.0"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
 					(reference "#PWR030")
 					(unit 1)
@@ -9485,7 +9485,7 @@
 			(uuid "0d740b95-f43b-46db-905a-532eb07ffa0d")
 		)
 		(instances
-			(project "FRDM-MCXx_Shield"
+			(project "FRDM-MCXx_Shield_V3.0"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
 					(reference "D13")
 					(unit 1)
@@ -9562,7 +9562,7 @@
 			(uuid "51d97f97-0c8f-477e-ad56-cce62d061d81")
 		)
 		(instances
-			(project "FRDM-MCXx_Shield"
+			(project "FRDM-MCXx_Shield_V3.0"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
 					(reference "D11")
 					(unit 1)
@@ -9700,7 +9700,7 @@
 			(uuid "61c9d8e6-f221-4bf7-b6df-6a5285a157ac")
 		)
 		(instances
-			(project "FRDM-MCXx_Shield"
+			(project "FRDM-MCXx_Shield_V3.0"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
 					(reference "TP4")
 					(unit 1)
@@ -9783,7 +9783,7 @@
 			(uuid "90e7d91e-a722-496e-9254-99d7ceba70d6")
 		)
 		(instances
-			(project "FRDM-MCXx_Shield"
+			(project "FRDM-MCXx_Shield_V3.0"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
 					(reference "J7")
 					(unit 1)
@@ -9921,7 +9921,7 @@
 			(uuid "bb050509-8963-4438-9844-e2c201d2e4b8")
 		)
 		(instances
-			(project "FRDM-MCXx_Shield"
+			(project "FRDM-MCXx_Shield_V3.0"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
 					(reference "TP2")
 					(unit 1)
@@ -9989,7 +9989,7 @@
 			(uuid "2e99f141-8cd2-4613-8b86-b9f606c027ac")
 		)
 		(instances
-			(project "FRDM-MCXx_Shield"
+			(project "FRDM-MCXx_Shield_V3.0"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
 					(reference "#PWR025")
 					(unit 1)
@@ -10066,7 +10066,7 @@
 			(uuid "c180c91e-cb72-4785-b585-d087bc54b4ff")
 		)
 		(instances
-			(project "FRDM-MCXx_Shield"
+			(project "FRDM-MCXx_Shield_V3.0"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
 					(reference "D10")
 					(unit 1)
@@ -10143,7 +10143,7 @@
 			(uuid "30255327-8797-4dd4-8568-8b505f64401c")
 		)
 		(instances
-			(project "FRDM-MCXx_Shield"
+			(project "FRDM-MCXx_Shield_V3.0"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
 					(reference "D12")
 					(unit 1)
@@ -10220,7 +10220,7 @@
 			(uuid "dc3d01e3-c76d-46b4-ba68-8c0255c471a0")
 		)
 		(instances
-			(project "FRDM-MCXx_Shield"
+			(project "FRDM-MCXx_Shield_V3.0"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
 					(reference "D9")
 					(unit 1)
@@ -10358,7 +10358,7 @@
 			(uuid "cd00a799-b54b-49d4-bd66-11216e9c56d7")
 		)
 		(instances
-			(project "FRDM-MCXx_Shield"
+			(project "FRDM-MCXx_Shield_V3.0"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
 					(reference "TP1")
 					(unit 1)
@@ -10443,7 +10443,7 @@
 			(uuid "3a2f2a88-06ba-4cf7-87f3-c8639f01f0d1")
 		)
 		(instances
-			(project "FRDM-MCXx_Shield"
+			(project "FRDM-MCXx_Shield_V3.0"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
 					(reference "J8")
 					(unit 1)
@@ -10511,7 +10511,7 @@
 			(uuid "cb46dbd5-c9d2-4b50-9c13-eb0d77dd2deb")
 		)
 		(instances
-			(project "FRDM-MCXx_Shield"
+			(project "FRDM-MCXx_Shield_V3.0"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
 					(reference "#PWR029")
 					(unit 1)
@@ -10579,7 +10579,7 @@
 			(uuid "45330e65-5190-48ac-9f6e-e569e17168f3")
 		)
 		(instances
-			(project "FRDM-MCXx_Shield"
+			(project "FRDM-MCXx_Shield_V3.0"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
 					(reference "#PWR026")
 					(unit 1)
@@ -10646,7 +10646,7 @@
 			(uuid "f18e663c-e1e2-476d-995f-22ca3f638dcc")
 		)
 		(instances
-			(project "FRDM-MCXx_Shield"
+			(project "FRDM-MCXx_Shield_V3.0"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
 					(reference "#PWR028")
 					(unit 1)
@@ -10784,7 +10784,7 @@
 			(uuid "63b511e5-1c67-43e1-bd72-3d4bcac4c287")
 		)
 		(instances
-			(project "FRDM-MCXx_Shield"
+			(project "FRDM-MCXx_Shield_V3.0"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
 					(reference "TP3")
 					(unit 1)
@@ -10852,7 +10852,7 @@
 			(uuid "9ccb3ff2-0e34-4ab8-8860-a80eb0bada89")
 		)
 		(instances
-			(project "FRDM-MCXx_Shield"
+			(project "FRDM-MCXx_Shield_V3.0"
 				(path "/bffc27af-f9e0-4cc8-b5dc-88d2faf26a17/1dfdf8f6-c624-48d2-b647-f547c6376b37"
 					(reference "#PWR024")
 					(unit 1)
