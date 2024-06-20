@@ -90,18 +90,6 @@
           "size_x": 3864,
           "size_y": 2100
         }
-      },
-      {
-        "name": "FRDM-MCXx_Shield_V3.0.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 1,
-          "maximized": true,
-          "pos_x": -12,
-          "pos_y": -12,
-          "size_x": 3864,
-          "size_y": 2100
-        }
       }
     ]
   }
