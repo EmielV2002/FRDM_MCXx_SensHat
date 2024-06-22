@@ -81,7 +81,7 @@
     "files": [
       {
         "name": "FRDM-MCXx_Shield_V3.0.kicad_pcb",
-        "open": false,
+        "open": true,
         "window": {
           "display": 1,
           "maximized": true,

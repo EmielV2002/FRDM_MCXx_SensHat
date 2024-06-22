@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "HMI")
-		(date "2024-06-17")
+		(date "2024-06-20")
 		(rev "V3.0")
 		(company "HAN")
 		(comment 1 "Authors: Thomas Ijseldijk, Hugo Arends & Emiel Visser")
@@ -3904,7 +3904,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "054a1157-22ff-413f-b7c4-c4a9eb9c5b44")
 		(property "Reference" "R4"
@@ -3983,7 +3983,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09485925-5d6e-4a1e-883f-7d64cd2ac5a9")
 		(property "Reference" "R1"
@@ -6745,7 +6745,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdbf978d-5ffd-43d0-8bda-90d167f806e3")
 		(property "Reference" "R3"
